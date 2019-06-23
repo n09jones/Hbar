@@ -1,0 +1,102 @@
+(* ::Package:: *)
+
+SetDirectory[If[$InputFileName=="",NotebookDirectory[],DirectoryName[$InputFileName]]];
+transquantdir=ParentDirectory[]<>"/Trans_Quants/";
+
+
+<<"Transition_Definitions.m";
+
+
+(* ::Section:: *)
+(*Diagnostics*)
+
+
+Btable=Table[dB*Bidx,{Bidx,-1,pts}];
+MakePlot[fn_,coeff_,log_,rng_]:=If[log,ListLogPlot,ListPlot][Transpose[{Btable,coeff*BinaryReadList[fn,"Real64"]}][[3;;]],PlotRange->rng];
+
+
+(* ::Text:: *)
+(*Check Ground State Energies*)
+
+
+Manipulate[MakePlot[OutputFn["Gr_Energy",{{1,Fket}}],1/h,False,Full],{Fket,SFBasis}]
+
+
+(* ::Text:: *)
+(*Check Transition Frequencies*)
+
+
+Manipulate[Manipulate[MakePlot[OutputFn["Transition_Freq",{{2,exket},{1,Fket1S}}],1,False,Full],{Fket1S,SFBasis},{exket,If[basis=="S",SFBasis,PJIBasis]}],{basis,{"S","P"}}]
+
+
+(* ::Text:: *)
+(*Check 1-Photon Decay Rates*)
+
+
+Manipulate[Manipulate[MakePlot[OutputFn["Decay_Rate_1Ph",{{2,exket}}],If[basis=="S",(100 Btable)^2,1/(2 \[Pi] 10^6)],True,If[basis=="S",{10,10^6},Full]],{exket,If[basis=="S",SFBasis,PJIBasis]}],{basis,{"S","P"}}]
+
+
+(* ::Text:: *)
+(*Check the Branching Numbers*)
+
+
+Print["One-Photon Decay Statistics : "];
+Print["Max deviation of the sum of branching ratios from 1 : ",Max[Abs[Flatten[Table[Sum[BinaryReadList[OutputFn["Branching_1Ph",{{2,exket},{1,Fket1S}}],"Real64"][[3;;]],{Fket1S,SFBasis}],{exket,Flatten[{PJIBasis,SFBasis}]}]]-1]]];
+Print["Max relative deviation of the DPM-predicted decay rate from the actual decay rate : ",Max[Flatten[Table[Abs[(Sum[Table[(\[Alpha] (If[MemberQ[PJIBasis,exket],ass2P,ass2S][exket][[1]]-ass1S[Fket1S][[1]])^3)/(2 \[Pi] c^2 hbar^3)/.B->BB,{BB,Btable[[2;;]]}]*Partition[BinaryReadList[OutputFn["DPM_1Ph",{{2,exket},{1,Fket1S}}],"Real64"][[2;;]],6].EmDistrInt,{Fket1S,SFBasis}][[2;;]]/BinaryReadList[OutputFn["Decay_Rate_1Ph",{{2,exket}}],"Real64"][[3;;]])-1],{exket,Flatten[{PJIBasis,SFBasis}]}]]]];
+Print["\nTwo-Photon Decay Statistics : "];
+Print["Max relative deviation of the decay rates from the intended value (", Sp2S," Hz) : ",Max[Abs[Flatten[Table[BinaryReadList[OutputFn["Decay_Rate_2Ph",{{2,Fket2S}}],"Real64"][[3;;]]/Sp2S,{Fket2S,SFBasis}]-1]]]];
+Print["Max deviation of the sum of branching ratios from 1 : ",Max[Abs[Flatten[Table[Sum[BinaryReadList[OutputFn["Branching_2Ph",{{2,Fket2S},{1,Fket1S}}],"Real64"][[3;;]],{Fket1S,SFBasis}],{Fket2S,SFBasis}]]-1]]];
+Print["Max deviation of the scaled DPM from the intended value (",DPMParams2S2Ph,") : ",Max[Abs[Flatten[Table[Transpose[Partition[BinaryReadList[OutputFn["DPM_2Ph",{{2,Fket2S},{1,Fket1S}}],"Real64"][[Length[DPMParams2S2Ph]+2;;]],Length[DPMParams2S2Ph]]]-DPMParams2S2Ph,{Fket2S,SFBasis},{Fket1S,SFBasis}]]]]];
+
+
+(* ::Text:: *)
+(*Check the Ionization Rate*)
+
+
+Print["Max relative deviation of the ionization rate from the intended value (",IonRatedivI," Hz/(W/\!\(\*SuperscriptBox[\(m\), \(2\)]\))) : ",Max[Abs[Flatten[Table[(BinaryReadList[OutputFn["Ionization_Rate",{{2,Fket2S}}],"Real64"][[3;;]]/IonRatedivI)-1,{Fket2S,SFBasis}]]]]];
+
+
+(* ::Text:: *)
+(*Check the Rabi Frequencies*)
+
+
+Manipulate[Manipulate[ListPlot[Transpose[Partition[BinaryReadList[OutputFn["Rabi_Freq",{{2,exket},{1,Fket1S}}],"Real64"][[2;;]],If[basis=="S",2,6]]][[comp]][[2;;]]],{comp,1,If[basis=="S",2,6],1},{Fket1S,SFBasis},{exket,If[basis=="S",SFBasis,PJIBasis]}],{basis,{"S","P"}}]
+
+
+(* ::Text:: *)
+(*Zeeman Shifts*)
+
+
+Manipulate[Manipulate[MakePlot[OutputFn["Zeeman_Shift",{{2,exket},{1,Fket1S}}],1,False,Full],{Fket1S,SFBasis},{exket,If[basis=="S",SFBasis,PJIBasis]}],{basis,{"S","P"}}]
+
+
+(* ::Text:: *)
+(*2S Zeeman Shift per Gauss*)
+
+
+Module[{tmp},
+tmp=Table[(BinaryReadList[OutputFn["Zeeman_Shift",{{2,Fket},{1,Fket}}],"Real64"][[1002]]-BinaryReadList[OutputFn["Zeeman_Shift",{{2,Fket},{1,Fket}}],"Real64"][[1001]])/dB*1/10^4,{Fket,{MakeSFKet[{0,1/2,1/2,1/2,1,0}],MakeSFKet[{0,1/2,1/2,1/2,1,-1}]}}];
+Print["c-c Detuning : ",tmp[[1]]," Hz/G"];
+Print["d-d Detuning : ",tmp[[2]]," Hz/G"];
+];
+
+
+(* ::Text:: *)
+(*Check AC Stark Shift*)
+
+
+Print["Max deviation of the AC Stark shift from the intended value (",ACStarkdivI," Hz/(W/\!\(\*SuperscriptBox[\(m\), \(2\)]\))) : ",Max[Abs[Flatten[Table[BinaryReadList[OutputFn["AC_Stark_Shift",{{2,Fket2S},{1,Fket1S}}],"Real64"][[3;;]]-ACStarkdivI,{Fket2S,SFBasis},{Fket1S,SFBasis}]]]]];
+
+
+(* ::Text:: *)
+(*Check DC Stark Shift*)
+
+
+Manipulate[MakePlot[OutputFn["DC_Stark_Shift",{{2,Fket2S},{1,Fket1S}}],-2,False,{-1,1}],{Fket1S,SFBasis},{Fket2S,SFBasis}]
+
+
+(* ::Text:: *)
+(*Check Two-Photon Energy Distribution*)
+
+
+Show[ListPlot[Transpose[{Table[x/pts,{x,1,pts}],BinaryReadList[OutputFn["TwoPhoton_Energy_Distribution",{}],"Real64"][[3;;]]}]],Plot[Sp2SEDistr[x]/Sp2SEDistr[0.5],{x,0,1},PlotStyle->{Orange,Dashed}]]

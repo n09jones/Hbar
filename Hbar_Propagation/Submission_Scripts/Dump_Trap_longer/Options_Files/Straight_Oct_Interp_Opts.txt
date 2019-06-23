@@ -1,0 +1,1 @@
+Interpolation Source Directory BdB = CTRAP_STRAIGHT_OCT_ONLY_Linear_Interp

@@ -1,0 +1,57 @@
+Total Partitions = 2000
+
+###########################
+# SUMMED FIELD PARAMETERS #
+###########################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h.
+Quadrupole Directory = CTRAP_QUAD
+Octupole Directory = CTRAP_STRAIGHT_OCT
+Pinch Directory = CTRAP_PINCH
+Bucking Directory = CTRAP_BUCK
+
+# All currents are in Amperes.
+Quadrupole Current = 0.0
+Octupole Current = 680.0
+Pinch Current = -210.0
+Bucking Current = 179.0
+
+# All field components are in Tesla.
+Offset field's x-component = 0.0
+Offset field's y-component = 0.0
+Offset field's z-component = -1.0
+
+# TRUE or FALSE
+Include Gradients = TRUE
+
+
+
+###################
+# COORDINATE GRID #
+###################
+
+# All coordinate limits are in meters.
+Lower limit x = -0.035
+Upper limit x = 0.035
+Points along x = 351
+Lower limit y = -0.035
+Upper limit y = 0.035
+Points along y = 351
+Lower limit z = -0.151
+Upper limit z = 0.151
+Points along z = 1511
+
+# Max radius is in meters.
+Maximum radius = 0.035
+
+
+
+########################
+# SUMMED FIELD STORAGE #
+########################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Summed Field Output Directory = CTRAP_STRAIGHT_OCT_TRAP
+
+
+

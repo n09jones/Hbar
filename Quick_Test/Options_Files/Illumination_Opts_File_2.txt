@@ -1,0 +1,16 @@
+Ground State F = 1
+Ground State mF = -1
+
+Excited State F = 1
+Excited State mF = -1
+
+Excited State 2J = 3
+Excited State 2mJ = -3
+Excited State 2mI = -1
+
+Laser Detuning = 0.5e3
+Laser FWHM = 1e3
+Detuning Field = 0.999
+
+Laser Path 1 File = Options_Files/Laser_Path_5.txt
+Laser Path 2 File = Options_Files/Laser_Path_6.txt

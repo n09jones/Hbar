@@ -1,0 +1,49 @@
+# Allow for secondary expansion of prerequisites.
+.SECONDEXPANSION:
+
+# Determine the top level directory
+TOP_DIR := $(patsubst %/,%,$(abspath $(dir $(abspath $(lastword $(MAKEFILE_LIST))))/../))
+
+# List the directories we might use to find boost files.
+SLURM_BOOST_DIR = /n/sw/fasrcsw/apps/Comp/gcc/7.1.0-fasrc01/boost/1.63.0-fasrc01
+MY_MAC_BOOST_DIR = /usr/local/Cellar/boost/1.66.0
+
+# Choose the first existing boost directory.
+SLURM_TEST = $(wildcard $(SLURM_BOOST_DIR)/*)
+MY_MAC_TEST = $(wildcard $(MY_MAC_BOOST_DIR)/*)
+
+ifneq ($(SLURM_TEST), )
+BOOST_DIR = $(SLURM_BOOST_DIR)
+BOOST_W_FLAGS = -Wall -Wno-misleading-indentation -Wno-unused-local-typedefs -Wno-unused-variable
+BOOST_LDLIBS = -Wl,-Bstatic -lboost_filesystem -lboost_system -lboost_iostreams -lboost_program_options -Wl,-Bdynamic
+TMP_DIR = "/scratch"
+LRG_STRG_DIR = "/n/scratchlfs/gabrielse_lab/njones"
+else ifneq ($(MY_MAC_TEST), )
+BOOST_DIR = $(MY_MAC_BOOST_DIR)
+BOOST_W_FLAGS = -Wall
+BOOST_LDLIBS = -lboost_filesystem -lboost_system -lboost_iostreams -lboost_program_options
+TMP_DIR = "/Users/njones/Desktop/scratch"
+LRG_STRG_DIR = "/Users/njones/Desktop/scratch"
+else
+$(error Check that either SLURM_BOOST_DIR or MY_MAC_BOOST_DIR in $(abspath $(lastword $(MAKEFILE_LIST))) exists)
+endif
+
+# List the libraries we expect to use.
+LIBS = $(filter-out %.h,$(notdir $(patsubst %/,%,$(wildcard $(TOP_DIR)/Libraries/include/*))))
+
+# Set flags.
+OPTFLAGS = -std=c++14 $(BOOST_W_FLAGS) -O3 -ffast-math
+INCFLAGS = $(addprefix -I $(TOP_DIR)/Libraries/include/,$(LIBS)) -I $(TOP_DIR)/Libraries/include -I $(BOOST_DIR)/include
+CXXFLAGS = $(OPTFLAGS) $(INCFLAGS)
+LDFLAGS = -L$(TOP_DIR)/Libraries/lib -L$(BOOST_DIR)/lib
+BASE_LDLIBS = -lATRAP_Atomic_Physics -lATRAP_Trap_Quantities -lATRAP_EM -lATRAP_base $(BOOST_LDLIBS) -pthread
+ARFLAGS = rcs
+
+VPATH = $(addprefix $(TOP_DIR)/Libraries/src/,$(LIBS)) $(addprefix $(TOP_DIR)/Libraries/prq/,$(LIBS)) src
+
+executables = $(basename $(notdir $(wildcard src/*.cpp)))
+.SECONDARY : $(executables) placeholder.fake
+
+ifdef CMPLT_MSSG_ON
+COMPLETE_MESSAGE = echo $(notdir $(patsubst %/,%,$(abspath $(CURDIR)))) Assembled
+endif

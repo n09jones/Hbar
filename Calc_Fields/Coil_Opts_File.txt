@@ -1,0 +1,51 @@
+Total Partitions = 2000
+Time (in mins) = 600
+
+# Assembly
+# Time (in mins) = 300
+# Memory (in MB) = 10000
+
+################################
+# SINGLE-COIL FIELD PARAMETERS #
+################################
+
+# QUAD, OCT, PINCH, BUCK, or CUSTOM
+Coil = OCT
+
+# Relative to "coil_dir" in Global_Info.h, omit if Coil = PINCH or BUCK
+Coil File Name = Straight_Oct_Coil.bin
+
+# TRUE or FALSE
+Include Gradients = TRUE
+
+
+
+###################
+# COORDINATE GRID #
+###################
+
+# All coordinate limits are in meters.
+Lower limit x = -0.035
+Upper limit x = 0.035
+Points along x = 351
+Lower limit y = -0.035
+Upper limit y = 0.035
+Points along y = 351
+Lower limit z = -0.151
+Upper limit z = 0.151
+Points along z = 1511
+
+# Max radius is in meters.
+Maximum radius = 0.035
+
+
+
+#############################
+# SINGLE-COIL FIELD STORAGE #
+#############################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Single-Coil Field Output Directory = CTRAP_STRAIGHT_OCT
+
+
+

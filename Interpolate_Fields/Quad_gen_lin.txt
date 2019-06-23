@@ -1,0 +1,24 @@
+Total Partitions = 50
+Time (in mins) = 240
+
+######################
+# INTERPOLATION INFO #
+######################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Interpolation Source Directory = CTRAP_STD_QUAD_TRAP_QUANTS
+
+# ZEROTH, LINEAR, QUADRATIC, or TRILINEAR
+Interpolation Mode = LINEAR
+
+
+
+#########################
+# INTERPOLATION STORAGE #
+#########################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Interpolation Output Directory = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+
+
+

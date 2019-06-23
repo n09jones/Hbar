@@ -1,0 +1,1620 @@
+==138225== Massif, a heap profiler
+==138225== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==138225== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==138225== Command: ./CW_1S2S_Arr_gen --opts_fn Submission_Scripts/Final_Spectra_Sweep_1S2S/Options_Files/Full_Opts/Oct_U_r0p001_P1_Opts_tmp_tmp.txt --part_group_idx 0 --part_member_idx 1 2
+==138225== 
+starting 2003
+starting 3001
+starting 5003
+ending 2003
+ending 5003
+ending 3001
+Loaded
+Minimum B : 0.917644
+Starting simulation for particle 1 of 2
+t = 0, 0 of 0
+t = 1, 0 of 15678
+t = 2, 0 of 32562
+t = 3, 0 of 49245
+t = 4, 0 of 65727
+t = 5, 0 of 80199
+t = 6, 0 of 97284
+t = 7, 3 of 117585
+t = 8, 4 of 132861
+t = 9, 4 of 150348
+t = 10, 4 of 165222
+t = 11, 4 of 175473
+t = 12, 5 of 192156
+t = 13, 5 of 216879
+t = 14, 5 of 229944
+t = 15, 6 of 243612
+t = 16, 9 of 262305
+t = 17, 9 of 277179
+t = 18, 9 of 289842
+t = 19, 9 of 311751
+t = 20, 9 of 324615
+t = 21, 10 of 342303
+t = 22, 10 of 359187
+t = 23, 11 of 375066
+t = 24, 12 of 390342
+t = 25, 12 of 407427
+t = 26, 12 of 428532
+t = 27, 12 of 452652
+t = 28, 12 of 464511
+t = 29, 12 of 480792
+t = 30, 12 of 499686
+t = 31, 12 of 513756
+t = 32, 12 of 529233
+t = 33, 12 of 539886
+t = 34, 12 of 553152
+t = 35, 12 of 571041
+t = 36, 12 of 580488
+t = 37, 12 of 597774
+t = 38, 12 of 616668
+t = 39, 12 of 638577
+t = 40, 12 of 656064
+t = 41, 13 of 670536
+t = 42, 14 of 688626
+t = 43, 15 of 704304
+t = 44, 16 of 720987
+t = 45, 16 of 735258
+t = 46, 16 of 752544
+t = 47, 16 of 770433
+t = 48, 16 of 786513
+t = 49, 16 of 806211
+t = 50, 18 of 822693
+t = 51, 19 of 834552
+t = 52, 19 of 852039
+t = 53, 20 of 883395
+t = 54, 21 of 902892
+t = 55, 21 of 917565
+t = 56, 22 of 935052
+t = 57, 23 of 948519
+t = 58, 23 of 962589
+t = 59, 23 of 976257
+t = 60, 23 of 992337
+t = 61, 24 of 1003794
+t = 62, 25 of 1023894
+t = 63, 25 of 1044396
+t = 64, 25 of 1049421
+t = 65, 25 of 1052034
+t = 66, 25 of 1059672
+t = 67, 25 of 1077762
+t = 68, 25 of 1096455
+t = 69, 26 of 1111128
+t = 70, 26 of 1137258
+t = 71, 27 of 1154343
+t = 72, 28 of 1166604
+t = 73, 28 of 1186302
+t = 74, 30 of 1203387
+t = 75, 30 of 1222683
+t = 76, 30 of 1244592
+t = 77, 30 of 1260873
+t = 78, 30 of 1271928
+t = 79, 30 of 1290822
+t = 80, 30 of 1312128
+t = 81, 30 of 1327605
+t = 82, 31 of 1343886
+t = 83, 31 of 1358760
+t = 84, 33 of 1376649
+t = 85, 33 of 1395342
+t = 86, 33 of 1411422
+t = 87, 35 of 1428306
+t = 88, 35 of 1443381
+t = 89, 35 of 1456848
+t = 90, 35 of 1471119
+t = 91, 35 of 1489611
+t = 92, 35 of 1504686
+t = 93, 35 of 1520364
+t = 94, 36 of 1537650
+t = 95, 36 of 1552725
+t = 96, 36 of 1573629
+t = 97, 36 of 1588101
+t = 98, 36 of 1598553
+t = 99, 36 of 1627497
+t = 100, 36 of 1644783
+t = 101, 37 of 1664682
+t = 102, 37 of 1685586
+t = 103, 37 of 1701063
+t = 104, 37 of 1713525
+t = 105, 37 of 1732821
+t = 106, 37 of 1747494
+t = 107, 37 of 1755735
+t = 108, 39 of 1773021
+t = 109, 39 of 1792317
+t = 110, 39 of 1804980
+t = 111, 39 of 1820256
+t = 112, 39 of 1833924
+t = 113, 39 of 1850004
+t = 114, 42 of 1863873
+t = 115, 42 of 1873923
+t = 116, 46 of 1888395
+t = 117, 47 of 1905078
+t = 118, 47 of 1922364
+t = 119, 48 of 1938042
+t = 120, 50 of 1953519
+t = 121, 54 of 1968996
+t = 122, 54 of 1987287
+t = 123, 54 of 2000754
+t = 124, 54 of 2018442
+t = 125, 54 of 2036130
+t = 126, 54 of 2051808
+t = 127, 54 of 2074119
+t = 128, 54 of 2089395
+t = 129, 54 of 2101857
+t = 130, 55 of 2116731
+t = 131, 55 of 2138238
+t = 132, 55 of 2156127
+t = 133, 55 of 2167584
+t = 134, 55 of 2186679
+t = 135, 55 of 2201352
+t = 136, 56 of 2220849
+t = 137, 56 of 2240949
+t = 138, 56 of 2254215
+t = 139, 57 of 2270697
+t = 140, 58 of 2289993
+t = 141, 60 of 2311098
+t = 142, 60 of 2327178
+t = 143, 74 of 2346072
+t = 144, 74 of 2360544
+t = 145, 74 of 2373207
+t = 146, 75 of 2386071
+t = 147, 75 of 2399940
+t = 148, 76 of 2420643
+t = 149, 77 of 2438331
+t = 150, 78 of 2456823
+t = 151, 78 of 2467677
+t = 152, 78 of 2486772
+t = 153, 78 of 2504259
+t = 154, 79 of 2517927
+t = 155, 79 of 2528580
+t = 156, 79 of 2551092
+t = 157, 80 of 2567775
+t = 158, 82 of 2585664
+t = 159, 82 of 2600940
+t = 160, 82 of 2620035
+t = 161, 82 of 2634507
+t = 162, 83 of 2651793
+t = 163, 83 of 2669682
+t = 164, 83 of 2684958
+t = 165, 83 of 2698425
+t = 166, 83 of 2711892
+t = 167, 83 of 2729379
+t = 168, 83 of 2747469
+t = 169, 83 of 2766765
+t = 170, 86 of 2783850
+t = 171, 86 of 2800131
+t = 172, 86 of 2813598
+t = 173, 86 of 2830281
+t = 174, 86 of 2847768
+t = 175, 86 of 2867466
+t = 176, 86 of 2881737
+t = 177, 86 of 2896410
+t = 178, 87 of 2917113
+t = 179, 87 of 2931786
+t = 180, 87 of 2944851
+t = 181, 87 of 2956509
+t = 182, 87 of 2972991
+t = 183, 87 of 2990880
+t = 184, 88 of 3008166
+t = 185, 89 of 3024648
+t = 186, 89 of 3039120
+t = 187, 89 of 3056808
+t = 188, 89 of 3106254
+t = 189, 89 of 3121530
+t = 190, 92 of 3139620
+t = 191, 92 of 3160725
+t = 192, 92 of 3180825
+t = 193, 93 of 3190473
+t = 194, 94 of 3208161
+t = 195, 94 of 3220623
+t = 196, 94 of 3237507
+t = 197, 94 of 3251778
+t = 198, 94 of 3270873
+t = 199, 94 of 3287154
+t = 200, 94 of 3307656
+t = 201, 95 of 3327153
+t = 202, 95 of 3340419
+t = 203, 95 of 3357906
+t = 204, 95 of 3372177
+t = 205, 98 of 3389865
+t = 206, 98 of 3409161
+t = 207, 98 of 3427854
+t = 208, 99 of 3440919
+t = 209, 100 of 3454989
+t = 210, 100 of 3468456
+t = 211, 100 of 3483129
+t = 212, 101 of 3494184
+t = 213, 101 of 3513480
+t = 214, 102 of 3528756
+t = 215, 103 of 3542223
+t = 216, 104 of 3561318
+t = 217, 104 of 3578202
+t = 218, 104 of 3596292
+t = 219, 104 of 3611568
+t = 220, 104 of 3629859
+t = 221, 104 of 3646743
+t = 222, 104 of 3664833
+t = 223, 105 of 3673476
+t = 224, 105 of 3687747
+t = 225, 106 of 3705033
+t = 226, 106 of 3718500
+t = 227, 106 of 3734580
+t = 228, 106 of 3747444
+t = 229, 106 of 3766338
+t = 230, 107 of 3784026
+t = 231, 107 of 3802116
+t = 232, 108 of 3816990
+t = 233, 109 of 3832266
+t = 234, 109 of 3849552
+t = 235, 109 of 3865833
+t = 236, 110 of 3880908
+t = 237, 110 of 3912867
+t = 238, 110 of 3934575
+t = 239, 110 of 3950253
+t = 240, 111 of 3964524
+t = 241, 111 of 3984222
+t = 242, 111 of 3999699
+t = 243, 111 of 4015176
+t = 244, 111 of 4029045
+t = 245, 112 of 4043316
+t = 246, 112 of 4053366
+t = 247, 113 of 4072059
+t = 248, 118 of 4084521
+t = 249, 118 of 4097184
+t = 250, 118 of 4112460
+t = 251, 119 of 4128138
+t = 252, 120 of 4143816
+t = 253, 120 of 4158087
+t = 254, 120 of 4169946
+t = 255, 120 of 4185825
+t = 256, 120 of 4200096
+t = 257, 121 of 4213362
+t = 258, 121 of 4230246
+t = 259, 121 of 4252959
+t = 260, 121 of 4272456
+t = 261, 121 of 4286928
+t = 262, 122 of 4302606
+t = 263, 122 of 4317078
+t = 264, 122 of 4332354
+t = 265, 122 of 4352454
+t = 266, 122 of 4369539
+t = 267, 124 of 4389036
+t = 268, 138 of 4402503
+t = 269, 138 of 4423407
+t = 270, 138 of 4449135
+t = 271, 138 of 4463004
+t = 272, 138 of 4472853
+t = 273, 138 of 4486119
+t = 274, 140 of 4501194
+t = 275, 140 of 4515264
+t = 276, 140 of 4532349
+t = 277, 140 of 4549836
+t = 278, 140 of 4563906
+t = 279, 140 of 4578177
+t = 280, 140 of 4591443
+t = 281, 140 of 4607121
+t = 282, 140 of 4619583
+t = 283, 140 of 4642899
+t = 284, 140 of 4662597
+t = 285, 142 of 4680285
+t = 286, 142 of 4692747
+t = 287, 143 of 4708023
+t = 288, 143 of 4722294
+t = 289, 145 of 4737369
+t = 290, 145 of 4751841
+t = 291, 146 of 4768524
+t = 292, 148 of 4784604
+t = 293, 148 of 4802091
+t = 294, 148 of 4815960
+t = 295, 148 of 4831437
+t = 296, 148 of 4849728
+t = 297, 148 of 4867416
+t = 298, 148 of 4883094
+t = 299, 148 of 4899375
+t = 300, 149 of 4917867
+t = 301, 149 of 4935354
+t = 302, 150 of 4952439
+t = 303, 150 of 4969122
+t = 304, 150 of 4989423
+t = 305, 151 of 5008920
+t = 306, 151 of 5028015
+t = 307, 151 of 5048517
+t = 308, 151 of 5068617
+t = 309, 151 of 5091732
+t = 310, 151 of 5111430
+t = 311, 153 of 5124897
+t = 312, 153 of 5138565
+t = 313, 153 of 5155851
+t = 314, 154 of 5172534
+t = 315, 154 of 5191227
+t = 316, 154 of 5210925
+t = 317, 154 of 5230422
+t = 318, 154 of 5245698
+t = 319, 154 of 5264994
+t = 320, 154 of 5286702
+t = 321, 155 of 5303184
+t = 322, 156 of 5321877
+t = 323, 156 of 5342580
+t = 324, 158 of 5359263
+t = 325, 158 of 5373735
+t = 326, 158 of 5388609
+t = 327, 158 of 5411523
+t = 328, 158 of 5426397
+t = 329, 159 of 5444286
+t = 330, 160 of 5458959
+t = 331, 161 of 5474436
+t = 332, 163 of 5491923
+t = 333, 163 of 5505792
+t = 334, 165 of 5525490
+t = 335, 165 of 5547801
+t = 336, 166 of 5557650
+t = 337, 167 of 5574132
+t = 338, 167 of 5593830
+t = 339, 167 of 5612523
+t = 340, 168 of 5627196
+t = 341, 168 of 5646090
+t = 342, 168 of 5660964
+t = 343, 168 of 5680662
+t = 344, 169 of 5697747
+t = 345, 169 of 5721465
+t = 346, 170 of 5736339
+t = 347, 170 of 5749404
+t = 348, 170 of 5759856
+t = 349, 170 of 5775735
+t = 350, 171 of 5793021
+t = 351, 171 of 5809302
+t = 352, 171 of 5823573
+t = 353, 171 of 5841864
+t = 354, 171 of 5858949
+t = 355, 173 of 5879652
+t = 356, 173 of 5894928
+t = 357, 173 of 5910405
+t = 358, 173 of 5924676
+t = 359, 173 of 5942364
+t = 360, 173 of 5959449
+t = 361, 173 of 5974323
+t = 362, 174 of 5990403
+t = 363, 174 of 5998242
+t = 364, 174 of 6011508
+t = 365, 174 of 6023568
+t = 366, 174 of 6039849
+t = 367, 176 of 6055527
+t = 368, 177 of 6068994
+t = 369, 183 of 6080451
+t = 370, 184 of 6098742
+t = 371, 184 of 6116229
+t = 372, 185 of 6130902
+t = 373, 186 of 6144168
+t = 374, 186 of 6161655
+t = 375, 186 of 6176127
+t = 376, 186 of 6187986
+t = 377, 186 of 6203262
+t = 378, 187 of 6219543
+t = 379, 187 of 6235020
+t = 380, 187 of 6249492
+t = 381, 187 of 6262356
+t = 382, 188 of 6285471
+t = 383, 189 of 6300546
+t = 384, 189 of 6320445
+t = 385, 189 of 6335520
+t = 386, 189 of 6355620
+t = 387, 190 of 6375318
+t = 388, 190 of 6385971
+t = 389, 190 of 6402654
+t = 390, 190 of 6421548
+t = 391, 191 of 6436020
+t = 392, 192 of 6453105
+t = 393, 192 of 6468582
+t = 394, 193 of 6487476
+t = 395, 193 of 6502149
+t = 396, 193 of 6521847
+t = 397, 193 of 6541545
+t = 398, 193 of 6555816
+t = 399, 194 of 6573906
+t = 400, 194 of 6589182
+t = 401, 195 of 6602649
+t = 402, 196 of 6618930
+t = 403, 196 of 6634608
+t = 404, 196 of 6651090
+t = 405, 197 of 6663150
+t = 406, 203 of 6677220
+t = 407, 205 of 6693300
+t = 408, 205 of 6708777
+t = 409, 205 of 6727872
+t = 410, 205 of 6747369
+t = 411, 205 of 6762846
+t = 412, 206 of 6780132
+t = 413, 206 of 6799227
+t = 414, 206 of 6814503
+t = 415, 206 of 6831990
+t = 416, 206 of 6849075
+t = 417, 206 of 6864954
+t = 418, 206 of 6881034
+t = 419, 206 of 6897918
+t = 420, 206 of 6910179
+t = 421, 207 of 6925254
+t = 422, 207 of 6938319
+t = 423, 207 of 6951384
+t = 424, 213 of 6965655
+t = 425, 214 of 6981936
+t = 426, 214 of 6996006
+t = 427, 215 of 7012890
+t = 428, 215 of 7026357
+t = 429, 215 of 7039623
+t = 430, 215 of 7054698
+t = 431, 215 of 7067160
+t = 432, 215 of 7079622
+t = 433, 215 of 7096104
+t = 434, 215 of 7112586
+t = 435, 215 of 7130073
+t = 436, 215 of 7148766
+t = 437, 217 of 7165650
+t = 438, 217 of 7181328
+t = 439, 217 of 7197609
+t = 440, 217 of 7215096
+t = 441, 217 of 7232181
+t = 442, 217 of 7249668
+t = 443, 217 of 7263738
+t = 444, 217 of 7273587
+t = 445, 217 of 7288863
+t = 446, 217 of 7306551
+t = 447, 218 of 7324038
+t = 448, 218 of 7338510
+t = 449, 218 of 7355796
+t = 450, 218 of 7368660
+t = 451, 219 of 7381926
+t = 452, 219 of 7397202
+t = 453, 219 of 7416900
+t = 454, 220 of 7430970
+t = 455, 220 of 7447251
+t = 456, 221 of 7464135
+t = 457, 221 of 7475793
+t = 458, 221 of 7493280
+t = 459, 221 of 7511169
+t = 460, 221 of 7530666
+t = 461, 221 of 7545138
+t = 462, 222 of 7561620
+t = 463, 222 of 7572876
+t = 464, 222 of 7587750
+t = 465, 223 of 7606644
+t = 466, 224 of 7618704
+t = 467, 224 of 7634583
+t = 468, 224 of 7655487
+t = 469, 226 of 7670763
+t = 470, 226 of 7682823
+t = 471, 226 of 7700913
+t = 472, 227 of 7716390
+t = 473, 228 of 7727646
+t = 474, 228 of 7744128
+t = 475, 229 of 7761213
+t = 476, 229 of 7773876
+t = 477, 230 of 7789956
+t = 478, 231 of 7805031
+t = 479, 231 of 7819302
+t = 480, 231 of 7834578
+t = 481, 232 of 7849050
+t = 482, 233 of 7862718
+t = 483, 233 of 7877793
+t = 484, 233 of 7894677
+t = 485, 233 of 7907541
+t = 486, 233 of 7924023
+t = 487, 233 of 7936887
+t = 488, 233 of 7954575
+t = 489, 233 of 7967238
+t = 490, 234 of 7985529
+t = 491, 234 of 8001207
+t = 492, 234 of 8017287
+t = 493, 234 of 8034372
+t = 494, 235 of 8048442
+t = 495, 236 of 8062914
+t = 496, 237 of 8075175
+t = 497, 240 of 8095275
+t = 498, 240 of 8110551
+t = 499, 241 of 8127234
+t = 500, 241 of 8143716
+t = 501, 241 of 8165424
+t = 502, 241 of 8185122
+t = 503, 241 of 8204619
+t = 504, 241 of 8216880
+t = 505, 241 of 8233563
+t = 506, 243 of 8247834
+t = 507, 244 of 8264517
+t = 508, 244 of 8278386
+t = 509, 245 of 8297481
+t = 510, 245 of 8312355
+t = 511, 245 of 8333259
+t = 512, 245 of 8344716
+t = 513, 246 of 8362605
+t = 514, 246 of 8376876
+t = 515, 246 of 8394564
+t = 516, 246 of 8411046
+t = 517, 246 of 8425920
+t = 518, 246 of 8439990
+t = 519, 247 of 8455266
+t = 520, 247 of 8472552
+t = 521, 247 of 8489637
+t = 522, 248 of 8505315
+t = 523, 248 of 8523606
+t = 524, 249 of 8541294
+t = 525, 249 of 8556369
+t = 526, 249 of 8576268
+t = 527, 249 of 8598177
+t = 528, 249 of 8611041
+t = 529, 250 of 8631543
+t = 530, 250 of 8648829
+t = 531, 250 of 8665110
+t = 532, 250 of 8680989
+t = 533, 252 of 8697873
+t = 534, 252 of 8713149
+t = 535, 252 of 8729430
+t = 536, 253 of 8746917
+t = 537, 254 of 8763399
+t = 538, 254 of 8783097
+t = 539, 254 of 8798373
+t = 540, 254 of 8814453
+t = 541, 254 of 8824302
+t = 542, 254 of 8833548
+t = 543, 254 of 8851437
+t = 544, 254 of 8866713
+t = 545, 254 of 8878371
+t = 546, 254 of 8894049
+t = 547, 254 of 8911737
+t = 548, 254 of 8930832
+t = 549, 254 of 8947113
+t = 550, 254 of 8967012
+t = 551, 254 of 8977062
+t = 552, 254 of 8995152
+t = 553, 254 of 9012237
+t = 554, 254 of 9028719
+t = 555, 255 of 9047613
+t = 556, 255 of 9064095
+t = 557, 257 of 9078165
+t = 558, 257 of 9093441
+t = 559, 257 of 9106908
+t = 560, 257 of 9122988
+t = 561, 258 of 9141480
+t = 562, 260 of 9160374
+t = 563, 260 of 9173640
+t = 564, 260 of 9187509
+t = 565, 260 of 9203991
+t = 566, 270 of 9220473
+t = 567, 270 of 9236955
+t = 568, 270 of 9257658
+t = 569, 271 of 9269115
+t = 570, 273 of 9292029
+t = 571, 273 of 9312531
+t = 572, 274 of 9326802
+t = 573, 274 of 9346098
+t = 574, 274 of 9359565
+t = 575, 274 of 9374640
+t = 576, 274 of 9387303
+t = 577, 274 of 9402177
+t = 578, 275 of 9417252
+t = 579, 276 of 9431925
+t = 580, 278 of 9444990
+t = 581, 278 of 9461472
+t = 582, 278 of 9476145
+t = 583, 278 of 9491421
+t = 584, 278 of 9507702
+t = 585, 278 of 9526194
+t = 586, 278 of 9542475
+t = 587, 278 of 9551319
+t = 588, 278 of 9582474
+t = 589, 278 of 9596343
+t = 590, 279 of 9608403
+t = 591, 279 of 9626895
+t = 592, 279 of 9643176
+t = 593, 279 of 9658251
+t = 594, 279 of 9680160
+t = 595, 279 of 9690210
+t = 596, 279 of 9706893
+t = 597, 279 of 9717345
+t = 598, 279 of 9732822
+t = 599, 280 of 9754329
+Particle 0 finishing
+Particle 1 finishing
+Particle 2 finishing
+Particle 3 finishing
+Particle 4 finishing
+Particle 5 finishing
+Particle 6 finishing
+Particle 7 finishing
+Particle 8 finishing
+Particle 9 finishing
+Particle 10 finishing
+Particle 11 finishing
+Particle 12 finishing
+Particle 13 finishing
+Particle 14 finishing
+Particle 15 finishing
+Particle 16 finishing
+Particle 17 finishing
+Particle 18 finishing
+Particle 19 finishing
+Particle 20 finishing
+Particle 21 finishing
+Particle 22 finishing
+Particle 23 finishing
+Particle 24 finishing
+Particle 25 finishing
+Particle 26 finishing
+Particle 27 finishing
+Particle 28 finishing
+Particle 29 finishing
+Particle 30 finishing
+Particle 31 finishing
+Particle 32 finishing
+Particle 33 finishing
+Particle 34 finishing
+Particle 35 finishing
+Particle 36 finishing
+Particle 37 finishing
+Particle 38 finishing
+Particle 39 finishing
+Particle 40 finishing
+Particle 41 finishing
+Particle 42 finishing
+Particle 43 finishing
+Particle 44 finishing
+Particle 45 finishing
+Particle 46 finishing
+Particle 47 finishing
+Particle 48 finishing
+Particle 49 finishing
+Particle 50 finishing
+Particle 51 finishing
+Particle 52 finishing
+Particle 53 finishing
+Particle 54 finishing
+Particle 55 finishing
+Particle 56 finishing
+Particle 57 finishing
+Particle 58 finishing
+Particle 59 finishing
+Particle 60 finishing
+Particle 61 finishing
+Particle 62 finishing
+Particle 63 finishing
+Particle 64 finishing
+Particle 65 finishing
+Particle 66 finishing
+Particle 67 finishing
+Particle 68 finishing
+Particle 69 finishing
+Particle 70 finishing
+Particle 71 finishing
+Particle 72 finishing
+Particle 73 finishing
+Particle 74 finishing
+Particle 75 finishing
+Particle 76 finishing
+Particle 77 finishing
+Particle 78 finishing
+Particle 79 finishing
+Particle 80 finishing
+Particle 81 finishing
+Particle 82 finishing
+Particle 83 finishing
+Particle 84 finishing
+Particle 85 finishing
+Particle 86 finishing
+Particle 87 finishing
+Particle 88 finishing
+Particle 89 finishing
+Particle 90 finishing
+Particle 91 finishing
+Particle 92 finishing
+Particle 93 finishing
+Particle 94 finishing
+Particle 95 finishing
+Particle 96 finishing
+Particle 97 finishing
+Particle 98 finishing
+Particle 99 finishing
+Particle 100 finishing
+Particle 101 finishing
+Particle 102 finishing
+Particle 103 finishing
+Particle 104 finishing
+Particle 105 finishing
+Particle 106 finishing
+Particle 107 finishing
+Particle 108 finishing
+Particle 109 finishing
+Particle 110 finishing
+Particle 111 finishing
+Particle 112 finishing
+Particle 113 finishing
+Particle 114 finishing
+Particle 115 finishing
+Particle 116 finishing
+Particle 117 finishing
+Particle 118 finishing
+Particle 119 finishing
+Particle 120 finishing
+Particle 121 finishing
+Particle 122 finishing
+Particle 123 finishing
+Particle 124 finishing
+Particle 125 finishing
+Particle 126 finishing
+Particle 127 finishing
+Particle 128 finishing
+Particle 129 finishing
+Particle 130 finishing
+Particle 131 finishing
+Particle 132 finishing
+Particle 133 finishing
+Particle 134 finishing
+Particle 135 finishing
+Particle 136 finishing
+Particle 137 finishing
+Particle 138 finishing
+Particle 139 finishing
+Particle 140 finishing
+Particle 141 finishing
+Particle 142 finishing
+Particle 143 finishing
+Particle 144 finishing
+Particle 145 finishing
+Particle 146 finishing
+Particle 147 finishing
+Particle 148 finishing
+Particle 149 finishing
+Particle 150 finishing
+Particle 151 finishing
+Particle 152 finishing
+Particle 153 finishing
+Particle 154 finishing
+Particle 155 finishing
+Particle 156 finishing
+Particle 157 finishing
+Particle 158 finishing
+Particle 159 finishing
+Particle 160 finishing
+Particle 161 finishing
+Particle 162 finishing
+Particle 163 finishing
+Particle 164 finishing
+Particle 165 finishing
+Particle 166 finishing
+Particle 167 finishing
+Particle 168 finishing
+Particle 169 finishing
+Particle 170 finishing
+Particle 171 finishing
+Particle 172 finishing
+Particle 173 finishing
+Particle 174 finishing
+Particle 175 finishing
+Particle 176 finishing
+Particle 177 finishing
+Particle 178 finishing
+Particle 179 finishing
+Particle 180 finishing
+Particle 181 finishing
+Particle 182 finishing
+Particle 183 finishing
+Particle 184 finishing
+Particle 185 finishing
+Particle 186 finishing
+Particle 187 finishing
+Particle 188 finishing
+Particle 189 finishing
+Particle 190 finishing
+Particle 191 finishing
+Particle 192 finishing
+Particle 193 finishing
+Particle 194 finishing
+Particle 195 finishing
+Particle 196 finishing
+Particle 197 finishing
+Particle 198 finishing
+Particle 199 finishing
+Particle 200 finishing
+Finished 600 s of simulation time in 1065.13 s of real time
+Starting simulation for particle 2 of 2
+t = 0, 281 of 9773022
+t = 1, 282 of 9792720
+t = 2, 284 of 9806991
+t = 3, 284 of 9824277
+t = 4, 284 of 9845181
+t = 5, 284 of 9859854
+t = 6, 285 of 9873321
+t = 7, 285 of 9882366
+t = 8, 288 of 9896838
+t = 9, 289 of 9914325
+t = 10, 289 of 9926586
+t = 11, 290 of 9938646
+t = 12, 291 of 9950907
+t = 13, 291 of 9964374
+t = 14, 291 of 9979851
+t = 15, 291 of 9994524
+t = 16, 291 of 10013418
+t = 17, 291 of 10032312
+t = 18, 291 of 10046784
+t = 19, 291 of 10065276
+t = 20, 291 of 10083969
+t = 21, 291 of 10099446
+t = 22, 291 of 10112712
+t = 23, 291 of 10132611
+t = 24, 291 of 10150701
+t = 25, 291 of 10162158
+t = 26, 291 of 10181856
+t = 27, 295 of 10202961
+t = 28, 295 of 10216227
+t = 29, 296 of 10227483
+t = 30, 297 of 10237533
+t = 31, 297 of 10257231
+t = 32, 297 of 10268889
+t = 33, 298 of 10286778
+t = 34, 299 of 10306074
+t = 35, 299 of 10324365
+t = 36, 300 of 10336626
+t = 37, 300 of 10354917
+t = 38, 300 of 10374012
+t = 39, 300 of 10389891
+t = 40, 300 of 10405971
+t = 41, 300 of 10422051
+t = 42, 300 of 10438935
+t = 43, 300 of 10453005
+t = 44, 302 of 10466472
+t = 45, 303 of 10490994
+t = 46, 303 of 10507878
+t = 47, 303 of 10525566
+t = 48, 303 of 10541646
+t = 49, 303 of 10559736
+t = 50, 304 of 10574409
+t = 51, 307 of 10594509
+t = 52, 307 of 10611795
+t = 53, 308 of 10632297
+t = 54, 308 of 10649784
+t = 55, 308 of 10662447
+t = 56, 308 of 10683351
+t = 57, 308 of 10704255
+t = 58, 308 of 10722747
+t = 59, 309 of 10739832
+t = 60, 325 of 10757721
+t = 61, 325 of 10778424
+t = 62, 326 of 10793499
+t = 63, 326 of 10805760
+t = 64, 326 of 10818222
+t = 65, 326 of 10837116
+t = 66, 326 of 10858824
+t = 67, 327 of 10876110
+t = 68, 328 of 10889778
+t = 69, 328 of 10909878
+t = 70, 328 of 10925355
+t = 71, 329 of 10945053
+Particle 138 lost at 72.1064
+t = 72.1066, 347 of 10969374
+t = 73, 347 of 10983645
+t = 74, 362 of 11008569
+t = 75, 362 of 11025654
+t = 76, 362 of 11041533
+t = 77, 362 of 11058819
+t = 78, 363 of 11085954
+t = 79, 363 of 11100024
+t = 80, 363 of 11113089
+t = 81, 363 of 11129571
+t = 82, 364 of 11147862
+t = 83, 364 of 11159118
+t = 84, 364 of 11175801
+t = 85, 364 of 11188464
+t = 86, 365 of 11203941
+t = 87, 368 of 11217006
+t = 88, 368 of 11234091
+t = 89, 370 of 11248563
+t = 90, 371 of 11265447
+t = 91, 372 of 11282532
+t = 92, 373 of 11300421
+t = 93, 373 of 11310471
+t = 94, 373 of 11327757
+t = 95, 373 of 11349867
+t = 96, 373 of 11368158
+t = 97, 374 of 11383635
+t = 98, 375 of 11405544
+t = 99, 376 of 11425041
+t = 100, 376 of 11442930
+t = 101, 385 of 11461422
+t = 102, 386 of 11475090
+t = 103, 386 of 11493180
+t = 104, 391 of 11504637
+t = 105, 391 of 11522727
+t = 106, 391 of 11541018
+t = 107, 392 of 11557701
+t = 108, 393 of 11573178
+t = 109, 393 of 11590866
+t = 110, 394 of 11607348
+t = 111, 394 of 11623227
+t = 112, 394 of 11640312
+t = 113, 395 of 11653980
+t = 114, 397 of 11668050
+t = 115, 397 of 11683125
+t = 116, 397 of 11698602
+t = 117, 397 of 11716290
+t = 118, 397 of 11728953
+t = 119, 399 of 11744832
+t = 120, 399 of 11759706
+t = 121, 401 of 11776992
+t = 122, 402 of 11794881
+t = 123, 403 of 11811363
+t = 124, 403 of 11827644
+t = 125, 403 of 11843322
+t = 126, 403 of 11857995
+t = 127, 403 of 11878497
+t = 128, 403 of 11889552
+t = 129, 405 of 11906637
+t = 130, 407 of 11926335
+t = 131, 407 of 11939199
+t = 132, 407 of 11954676
+t = 133, 407 of 11974776
+t = 134, 407 of 11990655
+t = 135, 407 of 12005730
+t = 136, 407 of 12021006
+t = 137, 408 of 12034473
+t = 138, 408 of 12049749
+t = 139, 408 of 12066030
+t = 140, 408 of 12081909
+t = 141, 408 of 12100803
+t = 142, 408 of 12116481
+t = 143, 408 of 12128340
+t = 144, 408 of 12145023
+t = 145, 408 of 12159696
+t = 146, 408 of 12184017
+t = 147, 408 of 12201906
+t = 148, 408 of 12215574
+t = 149, 409 of 12233061
+t = 150, 409 of 12249744
+t = 151, 409 of 12265623
+t = 152, 409 of 12280899
+t = 153, 410 of 12296979
+t = 154, 410 of 12312255
+t = 155, 410 of 12325521
+t = 156, 413 of 12339792
+t = 157, 413 of 12359289
+t = 158, 413 of 12377781
+t = 159, 413 of 12400092
+t = 160, 414 of 12418383
+t = 161, 415 of 12434463
+t = 162, 416 of 12448533
+t = 163, 416 of 12463005
+t = 164.049, 428 of 12478683
+t = 165, 430 of 12495969
+t = 166, 431 of 12510843
+t = 167, 431 of 12527325
+t = 168, 432 of 12543405
+t = 169, 432 of 12559485
+t = 170, 432 of 12573354
+t = 171, 432 of 12585012
+t = 172, 432 of 12600489
+t = 173, 434 of 12616971
+t = 174, 434 of 12633252
+t = 175, 434 of 12650940
+t = 176, 434 of 12662598
+t = 177, 435 of 12678477
+t = 178, 435 of 12690336
+t = 179, 437 of 12707421
+t = 180, 437 of 12726114
+t = 181, 437 of 12729531
+t = 182, 437 of 12742998
+t = 183, 440 of 12759480
+t = 184, 441 of 12775158
+t = 185, 441 of 12786816
+t = 186, 441 of 12810936
+t = 187, 441 of 12830634
+t = 188, 442 of 12842493
+t = 189, 442 of 12857568
+t = 190, 442 of 12874653
+t = 191, 442 of 12893547
+t = 192, 442 of 12907215
+t = 193, 442 of 12921486
+t = 194, 444 of 12936963
+t = 195, 444 of 12959877
+t = 196, 444 of 12989424
+t = 197, 445 of 13001484
+t = 198, 445 of 13022991
+t = 199, 445 of 13038066
+t = 200, 445 of 13052337
+t = 201, 447 of 13069020
+t = 202, 457 of 13088718
+t = 203, 457 of 13103994
+t = 204, 458 of 13116054
+t = 205, 458 of 13129923
+t = 206, 458 of 13147008
+t = 207, 460 of 13165902
+t = 208, 460 of 13188615
+t = 209, 460 of 13204293
+t = 210, 460 of 13228413
+t = 211, 460 of 13241880
+t = 212, 460 of 13257357
+t = 213, 460 of 13273236
+t = 214, 460 of 13306602
+t = 215, 460 of 13322280
+t = 216, 460 of 13339968
+t = 217, 463 of 13353435
+t = 218, 465 of 13368510
+t = 219, 465 of 13382580
+t = 220, 465 of 13396650
+t = 221, 465 of 13408107
+t = 222, 466 of 13426398
+t = 223, 466 of 13443885
+t = 224, 468 of 13457553
+t = 225, 468 of 13473633
+t = 226, 468 of 13488507
+t = 227, 469 of 13504386
+t = 228, 469 of 13508205
+t = 229, 469 of 13512024
+t = 230, 469 of 13527702
+t = 231, 469 of 13539963
+t = 232, 469 of 13561671
+t = 233, 469 of 13579761
+t = 234, 469 of 13594233
+t = 235, 469 of 13606896
+t = 236, 470 of 13623177
+t = 237, 470 of 13638453
+t = 238, 470 of 13653528
+t = 239, 470 of 13664382
+t = 240, 471 of 13680261
+t = 241, 471 of 13691316
+t = 242, 471 of 13707396
+t = 243, 472 of 13721064
+t = 244, 473 of 13734531
+t = 245, 473 of 13751415
+t = 246, 473 of 13764279
+t = 247, 474 of 13782168
+t = 248, 474 of 13800258
+t = 249, 474 of 13816338
+t = 250, 474 of 13836237
+t = 251, 474 of 13855533
+t = 252, 474 of 13871613
+t = 253, 474 of 13884879
+t = 254, 474 of 13903773
+t = 255, 475 of 13923069
+t = 256, 477 of 13936335
+t = 257, 477 of 13950807
+t = 258, 477 of 13966485
+t = 259, 477 of 13981158
+t = 260, 477 of 13997841
+t = 261, 478 of 14014524
+t = 262, 478 of 14033016
+t = 263, 478 of 14045478
+t = 264, 478 of 14060955
+t = 265, 478 of 14075427
+t = 266, 479 of 14095527
+t = 267, 479 of 14112612
+t = 268, 479 of 14135526
+t = 269, 481 of 14150601
+t = 270, 482 of 14165274
+t = 271, 482 of 14182158
+t = 272, 482 of 14194620
+t = 273, 482 of 14213514
+t = 274, 482 of 14223966
+t = 275, 482 of 14239242
+t = 276, 485 of 14254518
+t = 277, 486 of 14272005
+t = 278, 487 of 14290899
+t = 279, 491 of 14304969
+t = 280, 492 of 14320446
+t = 281, 493 of 14336526
+t = 282, 493 of 14355219
+t = 283, 493 of 14374716
+t = 284, 494 of 14393208
+t = 285, 494 of 14411298
+t = 286, 494 of 14429589
+t = 287, 494 of 14446272
+t = 288, 495 of 14461749
+t = 289, 495 of 14479035
+t = 290, 495 of 14493105
+t = 291, 498 of 14507175
+t = 292, 498 of 14514411
+t = 293, 498 of 14530491
+t = 294, 498 of 14549988
+t = 295, 502 of 14568480
+t = 296, 502 of 14593806
+t = 297, 504 of 14606067
+t = 298, 504 of 14623755
+t = 299, 504 of 14638629
+t = 300, 504 of 14656518
+t = 301, 504 of 14671593
+t = 302, 504 of 14692296
+t = 303, 504 of 14707773
+t = 304, 504 of 14723451
+t = 305, 504 of 14732295
+t = 306, 504 of 14740134
+t = 307, 504 of 14757822
+t = 308, 504 of 14777721
+t = 309, 504 of 14795409
+t = 310, 505 of 14811288
+t = 311, 506 of 14830785
+t = 312, 506 of 14846865
+t = 313, 507 of 14862945
+t = 314, 509 of 14879829
+t = 315, 510 of 14894502
+t = 316, 512 of 14906763
+t = 317, 512 of 14926059
+t = 318, 512 of 14943747
+t = 319, 512 of 14957214
+t = 320, 513 of 14986761
+t = 321, 513 of 15005052
+t = 322, 513 of 15022539
+t = 323, 513 of 15047463
+t = 324, 514 of 15061935
+t = 325, 514 of 15077412
+t = 326, 514 of 15097512
+t = 327, 514 of 15113391
+t = 328, 514 of 15124848
+t = 329, 515 of 15136707
+t = 330, 515 of 15154194
+t = 331, 515 of 15170676
+t = 332, 515 of 15190374
+t = 333, 515 of 15206052
+t = 334, 515 of 15220725
+t = 335, 515 of 15237408
+t = 336, 516 of 15250674
+t = 337, 516 of 15269367
+t = 338, 517 of 15296100
+t = 339, 518 of 15311778
+t = 340, 518 of 15339114
+t = 341, 518 of 15355797
+t = 342, 518 of 15373887
+t = 343, 519 of 15389967
+t = 344, 519 of 15406851
+t = 345, 519 of 15419112
+t = 346, 519 of 15433785
+t = 347, 520 of 15446046
+t = 348, 530 of 15464337
+t = 349, 530 of 15480819
+t = 350, 532 of 15496497
+t = 351, 533 of 15513984
+t = 352, 533 of 15534486
+t = 353, 534 of 15557199
+t = 354, 534 of 15573480
+t = 355, 534 of 15592977
+t = 356, 534 of 15604434
+t = 357, 534 of 15619107
+t = 358, 534 of 15637599
+t = 359, 534 of 15654483
+t = 360, 534 of 15668352
+t = 361, 538 of 15683025
+t = 362, 538 of 15698502
+t = 363, 538 of 15715185
+t = 364, 538 of 15737697
+t = 365, 539 of 15753576
+t = 366, 539 of 15771063
+t = 367, 539 of 15793374
+t = 368, 539 of 15813876
+t = 369, 539 of 15834981
+t = 370, 539 of 15851664
+t = 371, 539 of 15867945
+t = 372, 539 of 15887643
+t = 373, 540 of 15912969
+t = 374, 540 of 15932265
+t = 375, 541 of 15946536
+t = 376, 541 of 15959400
+t = 377, 541 of 15976284
+t = 378, 542 of 15989349
+t = 379, 542 of 16007640
+t = 380, 542 of 16022514
+t = 381, 543 of 16038192
+t = 382, 544 of 16057890
+t = 383, 544 of 16070754
+t = 384, 544 of 16092261
+t = 385, 544 of 16111758
+t = 386, 549 of 16126833
+t = 387, 549 of 16146129
+t = 388, 549 of 16156782
+t = 389, 549 of 16169445
+t = 390, 549 of 16184922
+t = 391, 549 of 16202811
+t = 392, 549 of 16220097
+t = 393, 549 of 16233162
+t = 394, 550 of 16252659
+t = 395, 550 of 16272558
+t = 396, 550 of 16287030
+t = 397, 550 of 16300095
+t = 398, 550 of 16314969
+t = 399, 550 of 16327632
+t = 400, 550 of 16341702
+t = 401, 550 of 16357581
+t = 402, 551 of 16372656
+t = 403, 551 of 16387731
+t = 404, 552 of 16404213
+t = 405, 553 of 16422303
+t = 406, 553 of 16434363
+t = 407, 555 of 16449438
+t = 408, 555 of 16472553
+t = 409, 555 of 16489437
+t = 410, 557 of 16499286
+t = 411, 558 of 16514763
+t = 412, 558 of 16528632
+t = 413, 561 of 16542300
+t = 414, 561 of 16559184
+t = 415, 561 of 16583907
+t = 416, 561 of 16600590
+t = 417, 561 of 16615665
+t = 418, 561 of 16639182
+t = 419, 561 of 16657272
+t = 420, 563 of 16671141
+t = 421, 563 of 16688829
+t = 422, 563 of 16701090
+t = 423, 567 of 16716567
+t = 424, 567 of 16732647
+t = 425, 567 of 16732647
+t = 426, 567 of 16745109
+t = 427, 567 of 16755561
+t = 428, 568 of 16770234
+t = 429, 568 of 16778475
+t = 430, 568 of 16778475
+t = 431, 568 of 16778475
+t = 432, 568 of 16778475
+t = 433, 568 of 16778475
+t = 434, 568 of 16788123
+t = 435, 568 of 16808424
+t = 436, 571 of 16825308
+t = 437, 572 of 16848825
+t = 438, 572 of 16867920
+t = 439, 572 of 16887216
+t = 440, 572 of 16905306
+t = 441, 572 of 16917165
+t = 442, 572 of 16931637
+t = 443, 572 of 16952139
+t = 444, 572 of 16977867
+t = 445, 572 of 16997967
+t = 446, 573 of 17010027
+t = 447, 573 of 17022690
+t = 448, 573 of 17036157
+t = 449, 573 of 17053845
+t = 450, 573 of 17069724
+t = 451, 573 of 17084397
+t = 452, 575 of 17104095
+t = 453, 575 of 17120376
+t = 454, 575 of 17135652
+t = 455, 576 of 17153541
+t = 456, 577 of 17170425
+t = 457, 577 of 17188917
+t = 458, 577 of 17210022
+t = 459, 577 of 17231127
+t = 460, 577 of 17244996
+t = 461, 577 of 17261277
+t = 462, 577 of 17299065
+t = 463, 578 of 17400168
+t = 464, 583 of 17501673
+t = 465, 583 of 17532627
+t = 466, 583 of 17544888
+t = 467, 583 of 17559561
+t = 468, 583 of 17574033
+t = 469, 583 of 17588505
+t = 470, 583 of 17605791
+t = 471, 583 of 17619459
+t = 472, 583 of 17633931
+t = 473, 583 of 17647599
+t = 474, 583 of 17663679
+t = 475, 583 of 17671920
+t = 476, 583 of 17689608
+t = 477, 583 of 17711517
+t = 478, 589 of 17731215
+t = 479, 591 of 17745888
+t = 480, 592 of 17761164
+t = 481, 592 of 17780661
+t = 482, 592 of 17796339
+t = 483, 592 of 17824278
+t = 484, 594 of 17840760
+t = 485, 594 of 17855835
+t = 486, 594 of 17878146
+t = 487, 596 of 17894427
+t = 488, 597 of 17910306
+t = 489, 599 of 17928798
+t = 490, 600 of 17946888
+t = 491, 600 of 17966787
+t = 492, 601 of 17981460
+t = 493, 601 of 17995128
+t = 494, 605 of 18010605
+t = 495, 606 of 18025680
+t = 496, 606 of 18044373
+t = 497, 606 of 18059247
+t = 498, 606 of 18077739
+t = 499, 606 of 18100050
+t = 500, 607 of 18116130
+t = 501, 607 of 18132612
+t = 502, 607 of 18145878
+t = 503, 607 of 18160149
+t = 504, 608 of 18176631
+t = 505, 608 of 18193113
+t = 506, 615 of 18210198
+t = 507, 616 of 18225675
+t = 508, 617 of 18239946
+t = 509, 618 of 18255423
+t = 510, 618 of 18271704
+t = 511, 620 of 18288789
+t = 512, 621 of 18302658
+t = 513, 621 of 18320547
+t = 514, 621 of 18342054
+t = 515, 621 of 18357531
+t = 516, 621 of 18379641
+t = 517, 622 of 18397731
+t = 518, 622 of 18411600
+t = 519, 622 of 18425268
+t = 520, 622 of 18443559
+t = 521, 622 of 18461046
+t = 522, 623 of 18475719
+t = 523, 623 of 18493608
+t = 524, 624 of 18508482
+t = 525, 624 of 18526773
+t = 526, 624 of 18544059
+t = 527, 624 of 18558531
+t = 528, 628 of 18576822
+t = 529, 629 of 18596118
+t = 530, 630 of 18610188
+t = 531, 630 of 18627474
+t = 532, 630 of 18648177
+t = 533, 631 of 18660639
+t = 534, 631 of 18679332
+t = 535, 633 of 18692397
+t = 536, 633 of 18705261
+t = 537, 634 of 18719130
+t = 538, 635 of 18734607
+t = 539, 635 of 18746064
+t = 540, 635 of 18761541
+t = 541, 635 of 18780837
+t = 542, 635 of 18800535
+t = 543, 636 of 18814203
+t = 544, 636 of 18832695
+t = 545, 638 of 18844353
+t = 546, 639 of 18861237
+t = 547, 639 of 18886764
+t = 548, 640 of 18904452
+t = 549, 641 of 18925356
+t = 550, 646 of 18938823
+t = 551, 648 of 18951888
+t = 552, 650 of 18970380
+t = 553, 651 of 18987867
+t = 554, 652 of 19003344
+t = 555, 654 of 19018017
+t = 556, 655 of 19032288
+t = 557, 661 of 19046559
+t = 558, 662 of 19062237
+t = 559, 663 of 19076106
+t = 560, 663 of 19094397
+t = 561, 664 of 19111080
+t = 562, 664 of 19130979
+t = 563, 664 of 19149270
+t = 564, 665 of 19166757
+t = 565, 667 of 19182033
+t = 566, 667 of 19195902
+t = 567, 668 of 19208766
+t = 568, 668 of 19219821
+t = 569, 668 of 19234092
+t = 570, 668 of 19252383
+t = 571, 669 of 19266051
+t = 572, 671 of 19285950
+t = 573, 672 of 19319718
+t = 574, 672 of 19337808
+t = 575, 672 of 19351476
+t = 576, 673 of 19372581
+t = 577, 673 of 19386048
+t = 578, 673 of 19401525
+t = 579, 673 of 19416801
+t = 580, 673 of 19433886
+t = 581, 673 of 19449363
+t = 582, 673 of 19460619
+t = 583, 674 of 19477302
+t = 584, 674 of 19492980
+t = 585, 674 of 19504638
+t = 586, 675 of 19523733
+t = 587, 675 of 19536597
+t = 588, 676 of 19550265
+t = 589, 676 of 19568355
+t = 590, 676 of 19586847
+t = 591, 677 of 19608756
+t = 592, 677 of 19625841
+t = 593, 677 of 19641921
+t = 594, 678 of 19659006
+t = 595, 678 of 19673880
+t = 596, 679 of 19688553
+t = 597, 679 of 19710864
+t = 598, 680 of 19727346
+t = 599, 680 of 19744230
+Particle 0 finishing
+Particle 1 finishing
+Particle 2 finishing
+Particle 3 finishing
+Particle 4 finishing
+Particle 5 finishing
+Particle 6 finishing
+Particle 7 finishing
+Particle 8 finishing
+Particle 9 finishing
+Particle 10 finishing
+Particle 11 finishing
+Particle 12 finishing
+Particle 13 finishing
+Particle 14 finishing
+Particle 15 finishing
+Particle 16 finishing
+Particle 17 finishing
+Particle 18 finishing
+Particle 19 finishing
+Particle 20 finishing
+Particle 21 finishing
+Particle 22 finishing
+Particle 23 finishing
+Particle 24 finishing
+Particle 25 finishing
+Particle 26 finishing
+Particle 27 finishing
+Particle 28 finishing
+Particle 29 finishing
+Particle 30 finishing
+Particle 31 finishing
+Particle 32 finishing
+Particle 33 finishing
+Particle 34 finishing
+Particle 35 finishing
+Particle 36 finishing
+Particle 37 finishing
+Particle 38 finishing
+Particle 39 finishing
+Particle 40 finishing
+Particle 41 finishing
+Particle 42 finishing
+Particle 43 finishing
+Particle 44 finishing
+Particle 45 finishing
+Particle 46 finishing
+Particle 47 finishing
+Particle 48 finishing
+Particle 49 finishing
+Particle 50 finishing
+Particle 51 finishing
+Particle 52 finishing
+Particle 53 finishing
+Particle 54 finishing
+Particle 55 finishing
+Particle 56 finishing
+Particle 57 finishing
+Particle 58 finishing
+Particle 59 finishing
+Particle 60 finishing
+Particle 61 finishing
+Particle 62 finishing
+Particle 63 finishing
+Particle 64 finishing
+Particle 65 finishing
+Particle 66 finishing
+Particle 67 finishing
+Particle 68 finishing
+Particle 69 finishing
+Particle 70 finishing
+Particle 71 finishing
+Particle 72 finishing
+Particle 73 finishing
+Particle 74 finishing
+Particle 75 finishing
+Particle 76 finishing
+Particle 77 finishing
+Particle 78 finishing
+Particle 79 finishing
+Particle 80 finishing
+Particle 81 finishing
+Particle 82 finishing
+Particle 83 finishing
+Particle 84 finishing
+Particle 85 finishing
+Particle 86 finishing
+Particle 87 finishing
+Particle 88 finishing
+Particle 89 finishing
+Particle 90 finishing
+Particle 91 finishing
+Particle 92 finishing
+Particle 93 finishing
+Particle 94 finishing
+Particle 95 finishing
+Particle 96 finishing
+Particle 97 finishing
+Particle 98 finishing
+Particle 99 finishing
+Particle 100 finishing
+Particle 101 finishing
+Particle 102 finishing
+Particle 103 finishing
+Particle 104 finishing
+Particle 105 finishing
+Particle 106 finishing
+Particle 107 finishing
+Particle 108 finishing
+Particle 109 finishing
+Particle 110 finishing
+Particle 111 finishing
+Particle 112 finishing
+Particle 113 finishing
+Particle 114 finishing
+Particle 115 finishing
+Particle 116 finishing
+Particle 117 finishing
+Particle 118 finishing
+Particle 119 finishing
+Particle 120 finishing
+Particle 121 finishing
+Particle 122 finishing
+Particle 123 finishing
+Particle 124 finishing
+Particle 125 finishing
+Particle 126 finishing
+Particle 127 finishing
+Particle 128 finishing
+Particle 129 finishing
+Particle 130 finishing
+Particle 131 finishing
+Particle 132 finishing
+Particle 133 finishing
+Particle 134 finishing
+Particle 135 finishing
+Particle 136 finishing
+Particle 137 finishing
+Particle 139 finishing
+Particle 140 finishing
+Particle 141 finishing
+Particle 142 finishing
+Particle 143 finishing
+Particle 144 finishing
+Particle 145 finishing
+Particle 146 finishing
+Particle 147 finishing
+Particle 148 finishing
+Particle 149 finishing
+Particle 150 finishing
+Particle 151 finishing
+Particle 152 finishing
+Particle 153 finishing
+Particle 154 finishing
+Particle 155 finishing
+Particle 156 finishing
+Particle 157 finishing
+Particle 158 finishing
+Particle 159 finishing
+Particle 160 finishing
+Particle 161 finishing
+Particle 162 finishing
+Particle 163 finishing
+Particle 164 finishing
+Particle 165 finishing
+Particle 166 finishing
+Particle 167 finishing
+Particle 168 finishing
+Particle 169 finishing
+Particle 170 finishing
+Particle 171 finishing
+Particle 172 finishing
+Particle 173 finishing
+Particle 174 finishing
+Particle 175 finishing
+Particle 176 finishing
+Particle 177 finishing
+Particle 178 finishing
+Particle 179 finishing
+Particle 180 finishing
+Particle 181 finishing
+Particle 182 finishing
+Particle 183 finishing
+Particle 184 finishing
+Particle 185 finishing
+Particle 186 finishing
+Particle 187 finishing
+Particle 188 finishing
+Particle 189 finishing
+Particle 190 finishing
+Particle 191 finishing
+Particle 192 finishing
+Particle 193 finishing
+Particle 194 finishing
+Particle 195 finishing
+Particle 196 finishing
+Particle 197 finishing
+Particle 198 finishing
+Particle 199 finishing
+Particle 200 finishing
+Finished 600 s of simulation time in 1060.57 s of real time
+==138225== 

@@ -1,0 +1,4 @@
+Laser Detuning = -34.0e6
+Laser FWHM = 247
+Pulse Length = 150e-9
+Repetition Rate = 30

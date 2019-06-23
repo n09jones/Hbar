@@ -1,0 +1,50 @@
+Total Partitions = 916
+
+Memory (in MB) = 10000
+Time (in mins) = 10000
+
+SLURM partitions = shared,serial_requeue
+
+
+########################
+# KINEMATIC PARAMETERS #
+########################
+
+# In seconds
+Time Per Step = 1.0e-6
+
+# In seconds
+Total Simulated Time = 3600
+
+########################
+# ATOMIC STATE : n = 1 #
+########################
+
+Ground State F = 1
+Ground State mF = -1
+
+#################
+Laser FWHM = 1e-3
+
+Excited State F = 1
+Excited State mF = -1
+
+Laser Detuning = 0
+
+##########################################
+# LINEARLY INTERPOLATED QUANTITY SOURCES #
+##########################################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h. Exclude directories for unu$
+Interpolation Source Directory BdB =
+Interpolation Source Directory B = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+
+# Relative to large_storage_dir in Global_Info.h.
+Initial Condition File Path = STD_ICs/Straight_Oct_z_cooled.bin
+
+Laser Path 1 File = /n/home11/njones/Lab_Code_Q_153/Hbar_Propagation/Submission_Scripts/Final_Spectra_Sweep_1S2S/Options_Files/Laser_Opts/Straight_Oct_r0p001_P1_z_Opts.txt
+
+Output File Path = STD_CW_1S2S_Spectrum_Arr_Full_Sweep/Freqs_-50k_50k_50_Survey/Straight_Oct_C_0p001_1_z.bin
+

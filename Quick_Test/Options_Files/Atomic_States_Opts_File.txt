@@ -1,0 +1,10 @@
+Ground State F = 1
+Ground State mF = -1
+
+Excited State F = 0
+Excited State mF = 0
+
+Excited State 2J = 3
+Excited State 2mJ = -1
+Excited State 2mI = -1
+

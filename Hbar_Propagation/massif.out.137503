@@ -1,0 +1,902 @@
+desc: --pages-as-heap=yes
+cmd: ./CW_1S2S_Arr_gen --opts_fn Submission_Scripts/Final_Spectra_Sweep_1S2S/Options_Files/Full_Opts/Oct_U_r0p001_P1_Opts_tmp_tmp.txt --part_group_idx 0 --part_member_idx 0 2
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=958464
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=84114
+mem_heap_B=18726912
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2484289
+mem_heap_B=18731008
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2798586
+mem_heap_B=18731008
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 18731008 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 17567744 0x4018C89: mmap (in /usr/lib64/ld-2.17.so)
+  n1: 17285120 0x400655D: _dl_map_object_from_fd (in /usr/lib64/ld-2.17.so)
+   n2: 17285120 0x4008586: _dl_map_object (in /usr/lib64/ld-2.17.so)
+    n1: 15179776 0x400CB10: openaux (in /usr/lib64/ld-2.17.so)
+     n1: 15179776 0x400F2D2: _dl_catch_error (in /usr/lib64/ld-2.17.so)
+      n1: 15179776 0x400D210: _dl_map_object_deps (in /usr/lib64/ld-2.17.so)
+       n1: 15179776 0x4003624: dl_main (in /usr/lib64/ld-2.17.so)
+        n1: 15179776 0x40174FC: _dl_sysdep_start (in /usr/lib64/ld-2.17.so)
+         n1: 15179776 0x4001BBF: _dl_start (in /usr/lib64/ld-2.17.so)
+          n1: 15179776 0x4001176: ??? (in /usr/lib64/ld-2.17.so)
+           n1: 15179776 0x6: ???
+            n1: 15179776 0x1FFEFFD421: ???
+             n1: 15179776 0x1FFEFFD433: ???
+              n1: 15179776 0x1FFEFFD43D: ???
+               n1: 15179776 0x1FFEFFD4A2: ???
+                n1: 15179776 0x1FFEFFD4B3: ???
+                 n1: 15179776 0x1FFEFFD4B5: ???
+                  n1: 15179776 0x1FFEFFD4C7: ???
+                   n0: 15179776 0x1FFEFFD4C9: ???
+    n1: 2105344 0x400135C: map_doit (in /usr/lib64/ld-2.17.so)
+     n1: 2105344 0x400F2D2: _dl_catch_error (in /usr/lib64/ld-2.17.so)
+      n1: 2105344 0x4001DE8: handle_ld_preload (in /usr/lib64/ld-2.17.so)
+       n1: 2105344 0x400387B: dl_main (in /usr/lib64/ld-2.17.so)
+        n1: 2105344 0x40174FC: _dl_sysdep_start (in /usr/lib64/ld-2.17.so)
+         n1: 2105344 0x4001BBF: _dl_start (in /usr/lib64/ld-2.17.so)
+          n1: 2105344 0x4001176: ??? (in /usr/lib64/ld-2.17.so)
+           n1: 2105344 0x6: ???
+            n1: 2105344 0x1FFEFFD421: ???
+             n1: 2105344 0x1FFEFFD433: ???
+              n1: 2105344 0x1FFEFFD43D: ???
+               n1: 2105344 0x1FFEFFD4A2: ???
+                n1: 2105344 0x1FFEFFD4B3: ???
+                 n1: 2105344 0x1FFEFFD4B5: ???
+                  n1: 2105344 0x1FFEFFD4C7: ???
+                   n0: 2105344 0x1FFEFFD4C9: ???
+  n0: 282624 in 4 places, all below massif's threshold (1.00%)
+ n0: 1163264 0xFFFFFFFFFFFFFFFF: ???
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=2879359
+mem_heap_B=18841600
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=5173473
+mem_heap_B=20942848
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=5241110
+mem_heap_B=143290368
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=5286264
+mem_heap_B=234885120
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=7608097
+mem_heap_B=18105929728
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=7618896
+mem_heap_B=24062947328
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=7833341
+mem_heap_B=41933991936
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=8022115
+mem_heap_B=43423248384
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1329210006
+mem_heap_B=43423248384
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=peak
+n2: 43423248384 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 43404406784 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 43188363264 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 43188363264 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 43188363264 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n1: 1489256448 0x4242D0: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:37)
+      n1: 1489256448 0x4390D8: emq_nms::grid_EM_quants<(ig_nms::interp_type)2004>::initialize(boost::filesystem::path const&) (EM_Quants.hpp:36)
+       n1: 1489256448 0x439492: kin_hand_nms::kinematic_handler<true, boost::numeric::odeint::symplectic_rkn_sb3a_mclachlan<bvec_nms::basic_vec<double, void>, bvec_nms::basic_vec<double, void>, double, bvec_nms::basic_vec<double, void>, bvec_nms::basic_vec<double, void>, double, boost::numeric::odeint::vector_space_algebra, boost::numeric::odeint::default_operations, boost::numeric::odeint::initially_resizer>, 0ul, emq_nms::grid_EM_quants<(ig_nms::interp_type)2004> >::fill(boost::filesystem::path const&, unsigned long, unsigned long) (Kinematic_Handler.hpp:29)
+        n1: 1489256448 0x40DD2A: generate_ICs(int, char**, unsigned long, unsigned long) (CW_1S2S_Arr_gen.cpp:90)
+         n1: 1489256448 0x45CE02: jm_nms::exec_prgrm(int, char**, std::function<void (int, char**, unsigned long, unsigned long)>, std::vector<std::pair<boost::filesystem::path, bool>, std::allocator<std::pair<boost::filesystem::path, bool> > > const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+          n1: 1489256448 0x45D6AA: jm_nms::pseudo_main(int, char**, std::function<void (int, char**, unsigned long, unsigned long)>, std::function<std::vector<std::pair<boost::filesystem::path, bool>, std::allocator<std::pair<boost::filesystem::path, bool> > > (boost::filesystem::path const&)>, std::function<void (boost::filesystem::path const&)>, std::function<void (boost::filesystem::path const&)>, std::function<void ()>) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+           n0: 1489256448 0x407646: main (CW_1S2S_Arr_gen.cpp:116)
+  n0: 216043520 in 4 places, all below massif's threshold (1.00%)
+ n0: 18841600 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=1329210006
+mem_heap_B=43423244288
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1330150460
+mem_heap_B=41933996032
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1330151466
+mem_heap_B=41933991936
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1332109609
+mem_heap_B=41934139392
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1332362540
+mem_heap_B=41934303232
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1333652949
+mem_heap_B=41934467072
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1333734521
+mem_heap_B=41934462976
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1336291560
+mem_heap_B=41934598144
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1336407757
+mem_heap_B=41934790656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1336468359
+mem_heap_B=41934938112
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41934938112 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 41915342848 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 41699106816 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 41699106816 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 41699106816 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 216236032 in 5 places, all below massif's threshold (1.00%)
+ n0: 19595264 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=1336527515
+mem_heap_B=41935134720
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1336590152
+mem_heap_B=41934987264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1337363368
+mem_heap_B=41935056896
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1337466034
+mem_heap_B=41935405056
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1337545939
+mem_heap_B=41935400960
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1338414768
+mem_heap_B=41935323136
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1338475890
+mem_heap_B=41935470592
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1338517743
+mem_heap_B=41935671296
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41935671296 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 41915752448 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 41699106816 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 41699106816 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 41699106816 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 216645632 in 5 places, all below massif's threshold (1.00%)
+ n0: 19918848 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=1338597650
+mem_heap_B=41935667200
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1339467571
+mem_heap_B=41935589376
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1339528558
+mem_heap_B=41935736832
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1339570411
+mem_heap_B=41935937536
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1339650318
+mem_heap_B=41935933440
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1339937787
+mem_heap_B=41935822848
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1340040484
+mem_heap_B=41936171008
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1340120391
+mem_heap_B=41936166912
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1340572959
+mem_heap_B=41936056320
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41936056320 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 41916153856 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 41699106816 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 41699106816 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 41699106816 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 217047040 in 5 places, all below massif's threshold (1.00%)
+ n0: 19902464 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=1340634131
+mem_heap_B=41936203776
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1340675984
+mem_heap_B=41936404480
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1340755891
+mem_heap_B=41936400384
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1341272760
+mem_heap_B=41936289792
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1341333982
+mem_heap_B=41936437248
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1341375835
+mem_heap_B=41936637952
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1341455742
+mem_heap_B=41936633856
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1341973396
+mem_heap_B=41936523264
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1342034481
+mem_heap_B=41936670720
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1342076334
+mem_heap_B=41936871424
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41936871424 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 41916755968 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 41699106816 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 41699106816 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 41699106816 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 217649152 in 5 places, all below massif's threshold (1.00%)
+ n0: 20115456 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=1342156241
+mem_heap_B=41936867328
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=707407644982
+mem_heap_B=41936527360
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=707407645492
+mem_heap_B=41936326656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=707407646002
+mem_heap_B=41936125952
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=707407646529
+mem_heap_B=41935925248
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=707407647065
+mem_heap_B=41935724544
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=707407647575
+mem_heap_B=41935523840
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=707407648085
+mem_heap_B=41935323136
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=707407648610
+mem_heap_B=41935122432
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=707407685977
+mem_heap_B=41934921728
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41934921728 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n2: 41915150336 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 41699106816 0x47DEA1: boost::iostreams::detail::mapped_file_impl::map_file(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path>&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+   n1: 41699106816 0x47EFB7: boost::iostreams::mapped_file_source::open_impl(boost::iostreams::basic_mapped_file_params<boost::iostreams::detail::path> const&) (in /n/home11/njones/Lab_Code_Q_152/Hbar_Propagation/CW_1S2S_Arr_gen)
+    n2: 41699106816 0x423F6F: double const* fio_nms::map_file<double, void>(boost::filesystem::path const&, boost::iostreams::mapped_file_source&, unsigned long, unsigned long) (mapped_file.hpp:410)
+     n1: 41699106816 0x424291: mapped_arr_nms::mapped_arr<double, void>::mapped_arr(boost::filesystem::path const&, bool, prt_nms::partition) (Mapped_Arr.hpp:34)
+      n3: 41699106816 0x426D33: std::conditional<((par_arr_nms::storage)1)==((par_arr_nms::storage)0), std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mem_arr_nms::mem_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mem_arr_vec_nms::mem_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type, std::conditional<((par_arr_nms::arr_type)0)==((par_arr_nms::arr_type)0), mapped_arr_nms::mapped_arr<double, std::enable_if<(is_basic<double>)(), void>::type>, mapped_arr_vec_nms::mapped_arr_vec<double, std::enable_if<(is_basic<double>)(), void>::type> >::type>::type par_arr_nms::init_par_arr<(par_arr_nms::storage)1, (par_arr_nms::arr_type)0, double, void, int>(boost::filesystem::path const&, bool, bool, prt_nms::partition) (Param_Arr.hpp:15)
+       n1: 17871044608 0x42D1D9: ig_nms::interp_grid<(ig_nms::interp_quant)2003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42D357: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 17871044608 0x42E4D9: ig_nms::interp_grid<(ig_nms::interp_quant)5003, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 17871044608 0x42E657: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 17871044608 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 17871044608 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 17871044608 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 17871044608 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 17871044608 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 17871044608 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 17871044608 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+       n1: 5957017600 0x42D82C: ig_nms::interp_grid<(ig_nms::interp_quant)3001, (par_arr_nms::storage)1, true, false>::fill_contents(boost::filesystem::path const&, unsigned long, unsigned long) (Interpolation_Grids.hpp:10)
+        n1: 5957017600 0x42D9B7: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 5957017600 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 5957017600 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 5957017600 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 5957017600 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 5957017600 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 5957017600 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 5957017600 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 216043520 in 5 places, all below massif's threshold (1.00%)
+ n0: 19771392 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=707407690476
+mem_heap_B=41934118912
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=707407823153
+mem_heap_B=24063074304
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=707407958759
+mem_heap_B=18106056704
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=707408152785
+mem_heap_B=235012096
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=707408157950
+mem_heap_B=235003904
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=707408158806
+mem_heap_B=232902656
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=707408159635
+mem_heap_B=230801408
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=707408160467
+mem_heap_B=228700160
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=707408161296
+mem_heap_B=226598912
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=707408162111
+mem_heap_B=224497664
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n3: 224497664 (page allocation syscalls) mmap/mremap/brk, --alloc-fns, etc.
+ n4: 205524992 0x57CF999: mmap (in /usr/lib64/libc-2.17.so)
+  n1: 134217728 0x575757F: new_heap (in /usr/lib64/libc-2.17.so)
+   n1: 134217728 0x5757FB2: arena_get2.isra.3 (in /usr/lib64/libc-2.17.so)
+    n1: 134217728 0x575D0FC: malloc (in /usr/lib64/libc-2.17.so)
+     n1: 134217728 0x4CB56E6: operator new(unsigned long) (new_op.cc:50)
+      n1: 134217728 0x40C465: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.330] (basic_string.tcc:219)
+       n2: 134217728 0x410F08: boost::filesystem::operator/(boost::filesystem::path const&, boost::filesystem::path const&) (basic_string.h:220)
+        n1: 67108864 0x42D9A5: interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 67108864 0x40F540: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 67108864 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 67108864 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 67108864 0x4118C2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)3001, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 67108864 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 67108864 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 67108864 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+        n1: 67108864 0x42E645: interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 67108864 0x40F6E0: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 67108864 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 67108864 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 67108864 0x411CA2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)5003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 67108864 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 67108864 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 67108864 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+  n1: 67108864 0x575750E: new_heap (in /usr/lib64/libc-2.17.so)
+   n1: 67108864 0x5757FB2: arena_get2.isra.3 (in /usr/lib64/libc-2.17.so)
+    n1: 67108864 0x575D0FC: malloc (in /usr/lib64/libc-2.17.so)
+     n1: 67108864 0x4CB56E6: operator new(unsigned long) (new_op.cc:50)
+      n1: 67108864 0x40C465: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.330] (basic_string.tcc:219)
+       n1: 67108864 0x410F08: boost::filesystem::operator/(boost::filesystem::path const&, boost::filesystem::path const&) (basic_string.h:220)
+        n1: 67108864 0x42D345: interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::import_data(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&) (Interpolators.hpp:65)
+         n1: 67108864 0x40F470: std::_Function_handler<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> (), std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void>, std::__future_base::_Result_base::_Deleter>, std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void> >::_M_invoke(std::_Any_data const&) (invoke.h:73)
+          n1: 67108864 0x410799: std::__future_base::_State_baseV2::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>*, bool*) (std_function.h:706)
+           n1: 67108864 0x54CDE1E: pthread_once (in /usr/lib64/libpthread-2.17.so)
+            n1: 67108864 0x4116D2: std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::__future_base::_Async_state_impl<std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >, void>::_Async_state_impl(std::thread::_Invoker<std::tuple<void (interp_nms::sub_interp_data<(ig_nms::interp_quant)2003, (ig_nms::interp_type)2004>::*)(interp_nms::interpolator_in_params<(ig_nms::interp_type)2004> const&, cg_nms::cart_coord_grid const&), interp_nms::interp_data<(ig_nms::interp_type)2004>*, interp_nms::interpolator_in_params<(ig_nms::interp_type)2004>, cg_nms::cart_coord_grid> >&&)::{lambda()#1}> > >::_M_run() (gthr-default.h:699)
+             n1: 67108864 0x4CDFD5D: execute_native_thread_routine (thread.cc:83)
+              n1: 67108864 0x54C8E23: start_thread (in /usr/lib64/libpthread-2.17.so)
+               n0: 67108864 0x57D534B: clone (in /usr/lib64/libc-2.17.so)
+  n1: 4198400 0x54C9946: pthread_create@@GLIBC_2.2.5 (in /usr/lib64/libpthread-2.17.so)
+   n1: 4198400 0x4CE0013: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (gthr-default.h:662)
+    n0: 4198400 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n2: 17473536 0x4018C89: mmap (in /usr/lib64/ld-2.17.so)
+  n1: 17285120 0x400655D: _dl_map_object_from_fd (in /usr/lib64/ld-2.17.so)
+   n2: 17285120 0x4008586: _dl_map_object (in /usr/lib64/ld-2.17.so)
+    n1: 15179776 0x400CB10: openaux (in /usr/lib64/ld-2.17.so)
+     n1: 15179776 0x400F2D2: _dl_catch_error (in /usr/lib64/ld-2.17.so)
+      n1: 15179776 0x400D210: _dl_map_object_deps (in /usr/lib64/ld-2.17.so)
+       n1: 15179776 0x4003624: dl_main (in /usr/lib64/ld-2.17.so)
+        n1: 15179776 0x40174FC: _dl_sysdep_start (in /usr/lib64/ld-2.17.so)
+         n1: 15179776 0x4001BBF: _dl_start (in /usr/lib64/ld-2.17.so)
+          n1: 15179776 0x4001176: ??? (in /usr/lib64/ld-2.17.so)
+           n1: 15179776 0x6: ???
+            n1: 15179776 0x1FFEFFD421: ???
+             n1: 15179776 0x1FFEFFD433: ???
+              n1: 15179776 0x1FFEFFD43D: ???
+               n1: 15179776 0x1FFEFFD4A2: ???
+                n1: 15179776 0x1FFEFFD4B3: ???
+                 n1: 15179776 0x1FFEFFD4B5: ???
+                  n1: 15179776 0x1FFEFFD4C7: ???
+                   n0: 15179776 0x1FFEFFD4C9: ???
+    n0: 2105344 in 1 place, below massif's threshold (1.00%)
+  n0: 188416 in 4 places, all below massif's threshold (1.00%)
+ n0: 1499136 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=707408162926
+mem_heap_B=222396416
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

@@ -1,0 +1,9 @@
+##########################################
+# LINEARLY INTERPOLATED QUANTITY SOURCES #
+##########################################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h. Exclude directories for unu$
+Interpolation Source Directory BdB =
+Interpolation Source Directory B = CTRAP_STD_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STD_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STD_OCT_TRAP_QUANTS_Linear_Interp

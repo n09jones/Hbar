@@ -1,0 +1,36 @@
+Total Partitions = 100
+Time (in mins) = 120
+
+################################
+# SINGLE-COIL FIELD PARAMETERS #
+################################
+
+# QUAD, OCT, PINCH, BUCK, or CUSTOM
+Coil = BUCK
+
+# Relative to "coil_dir" in Global_Info.h, omit if Coil = PINCH or BUCK
+Coil File Name =
+
+# TRUE or FALSE
+Include Gradients = TRUE
+
+
+
+#############
+# FILE GRID #
+#############
+
+# Relative to "large_storage_dir" in Global_Info.h
+Coordinate Grid File Name = interp_check_pts.bin
+
+
+
+#############################
+# SINGLE-COIL FIELD STORAGE #
+#############################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Single-Coil Field Output Directory = Interp_BUCK
+
+
+

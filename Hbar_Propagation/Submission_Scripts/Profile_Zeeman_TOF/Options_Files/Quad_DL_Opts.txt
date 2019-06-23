@@ -1,0 +1,32 @@
+########################
+# KINEMATIC PARAMETERS #
+########################
+
+# In seconds
+Time Per Step = 1.0e-6
+
+# In seconds
+Total Simulated Time = 100
+
+########################
+# ATOMIC STATE : n = 1 #
+########################
+
+Ground State F = 1
+Ground State mF = -1
+
+Excited State F = 1
+Excited State mF = -1
+
+Laser Detuning = 0
+
+#################
+Laser FWHM = 1e3
+
+Output File Path = Null.bin
+Total Partitions = 916
+Interpolation Source Directory B = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Initial Condition File Path = STD_ICs/Quad_Doppler_Lim_ICs.bin
+Laser Path 1 File = Submission_Scripts/Laser_Path_Options_Files/CW_1S2S/Quad/Laser_Path_1.txt

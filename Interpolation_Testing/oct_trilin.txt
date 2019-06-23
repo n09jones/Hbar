@@ -1,0 +1,10 @@
+
+Coordinate Grid File Name = interp_check_pts.bin
+
+Interpolation Source Directory B = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+Interpolation Source Directory acc_1Sc = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+Interpolation Source Directory acc_2Sc = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+Interpolation Source Directory acc_2Sd = CTRAP_STD_OCT_TRAP_QUANTS_Trilinear_Interp
+

@@ -1,0 +1,20 @@
+Power = 1
+
+Focus_x = 0
+Focus_y = 0
+
+Wave vector_x = 1
+Wave vector_y = 0
+Wave vector_z = 0
+
+Polarization_x real part = 0
+Polarization_x imaginary part = 0
+Polarization_y real part = 1
+Polarization_y imaginary part = 0
+Polarization_z real part = 0
+Polarization_z imaginary part = 0
+
+Beam waist (radius) = 100e-6
+
+Focus_z = 0
+

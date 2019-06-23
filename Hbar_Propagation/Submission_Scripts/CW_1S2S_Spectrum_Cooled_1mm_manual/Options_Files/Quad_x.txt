@@ -1,0 +1,46 @@
+Total Partitions = 10
+
+Memory (in MB) = 10000
+Time (in mins) = 60
+
+SLURM partitions = shared,serial_requeue
+
+##########################################
+# LINEARLY INTERPOLATED QUANTITY SOURCES #
+##########################################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h. Exclude directories for unu$
+Interpolation Source Directory BdB =
+Interpolation Source Directory B = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+
+
+
+########################
+# KINEMATIC PARAMETERS #
+########################
+
+# In seconds
+Time Per Step = 1.0e-6
+
+# In seconds
+Total Simulated Time = 600
+
+# Relative to "large_storage_dir" in Global_Info.h.
+Initial Condition File Path = STD_ICs/Quad_3_cooled_100.bin
+
+########################
+# ATOMIC STATE : n = 1 #
+########################
+
+Ground State F = 1
+Ground State mF = -1
+
+
+#################
+Laser FWHM = 1e-3
+
+
+################
+Laser Path 1 File = Submission_Scripts/Laser_Path_Options_Files/CW_1S2S_1mm/Quad/Laser_Path_1.txt

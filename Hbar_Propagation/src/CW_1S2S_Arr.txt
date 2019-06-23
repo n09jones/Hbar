@@ -1,0 +1,199 @@
+#include <iostream>
+#include <chrono>
+#include "ATRAP_base.h"
+#include "ATRAP_Atomic_Physics.h"
+
+double time_time {0.0};
+
+constexpr pdef_nms::illum_type it_const {pdef_nms::illum_type::TwoPh};
+
+using EM_Quant_Gen = emq_nms::grid_EM_quants<ig_nms::interp_type::lin>;
+
+using kh_t = kin_hand_nms::kinematic_handler<true, boost::numeric::odeint::symplectic_rkn_sb3a_mclachlan<bvec_nms::basic_vec<>, bvec_nms::basic_vec<>, global_nms::default_data_type, bvec_nms::basic_vec<>, bvec_nms::basic_vec<>, double, boost::numeric::odeint::vector_space_algebra>, 0, EM_Quant_Gen>;
+
+using ill_t = ill_arr_hand_nms::illumination_array_handler<it_const, EM_Quant_Gen>;
+using dec_t = decay_arr_nms::decay_array_handler<it_const, EM_Quant_Gen>;
+using ssah_t = st_sum_arr_hand_nms::st_sum_arr_hand;
+using aaeh_t = aae_hand_nms::atomic_array_evolution_handler<ill_t, dec_t, ssah_t>;
+
+using func_ptr_t = void (*)(kh_t&, aaeh_t&);
+func_ptr_t next_func {nullptr};
+
+template <ig_nms::interp_quant IQ> void run_reg(kh_t& kh, aaeh_t& aaeh);
+template <ig_nms::interp_quant IQ> void in_beam_func(kh_t& kh, aaeh_t& aaeh);
+
+/* pseudo_propagator */
+template <ig_nms::interp_quant IQ>
+struct pseudo_propagator
+{
+    double t_init;
+    pdef_nms::state_t pos_vel_init;
+    double t_in_beam_init;
+    
+    bool min_max_init;
+    global_nms::default_data_type Rabi_freq_max;
+    global_nms::default_data_type decay_rate_min;
+    
+    global_nms::default_data_type P_exc_0;
+    global_nms::default_data_type P_no_dec_lo_bd;
+    
+    void init(const kh_t& kh, aaeh_t& aaeh)
+    {
+        t_init = kh.t;
+        pos_vel_init = kh.pos_vel;
+        t_in_beam_init = aaeh.ill.t_in_beam;
+        
+        min_max_init = false;
+        
+        P_exc_0 = 0.0;
+        P_no_dec_lo_bd = 1.0;
+    }
+    
+    void reset_kh(kh_t& kh, aaeh_t& aaeh)
+    {
+        kh.t = t_init;
+        kh.pos_vel = pos_vel_init;
+        kh.reset_out_of_bnds();
+        
+        aaeh.ill.t_in_beam = t_in_beam_init;
+    }
+    
+    bool test_propagation(kh_t& kh, aaeh_t& aaeh)
+    {
+        static size_t tot {0};
+        static size_t detailed {0};
+
+        ++tot;
+        init(kh, aaeh);
+        
+        for(; ((kh.t < kh.t_lim) && !(kh.out_of_bounds()) && aaeh.in_beam(kh.pos_vel)); kh.t += kh.dt)
+        {
+            aaeh.ill.t_in_beam += kh.dt;
+            aaeh.ill.update(kh.pos_vel);
+
+            global_nms::default_data_type loc_Rabi_freq {0.0};
+            for(const auto& RFDbp : aaeh.ill.Rabi_freq_Doppler_by_path) {
+                loc_Rabi_freq += std::abs(std::get<0>(RFDbp));
+            }
+            
+            if(min_max_init)
+            {
+                Rabi_freq_max = std::max(Rabi_freq_max, loc_Rabi_freq);
+                decay_rate_min = std::min(decay_rate_min, aaeh.ill.prob_decay_rate);
+            }
+            else
+            {
+                Rabi_freq_max = loc_Rabi_freq;
+                decay_rate_min = aaeh.ill.prob_decay_rate;
+                min_max_init = true;
+            }
+            
+            auto P_exc_st_up_bd {P_exc_0 + (Rabi_freq_max*Rabi_freq_max/(decay_rate_min*decay_rate_min))};
+            P_no_dec_lo_bd -= aaeh.ill.prob_decay_rate*P_exc_st_up_bd*kh.dt;
+                        
+            if((P_no_dec_lo_bd < aaeh.ill.max_decay_threshold) || (P_exc_st_up_bd > aaeh.ill.min_excitation_threshold*P_no_dec_lo_bd))
+            {
+                reset_kh(kh, aaeh);
+std::cout << ++detailed << " of " << tot << " executing" << std::endl;
+                return true;
+            }
+            
+            kh.template do_step<IQ>();
+        }
+        
+        return false;
+    }
+};
+
+template <ig_nms::interp_quant IQ>
+void run_reg(kh_t& kh, aaeh_t& aaeh)
+{
+    for(; ((kh.t < kh.t_lim) && !(kh.out_of_bounds()) && !(aaeh.in_beam(kh.pos_vel))); kh.t += kh.dt) {
+while(kh.t >= time_time) {std::cout << "t = " << kh.t << std::endl; ++time_time;}
+        kh.template do_step<IQ>();
+    }
+    
+    if((kh.t >= kh.t_lim) || kh.out_of_bounds()) {next_func = nullptr;}
+    else {next_func = in_beam_func<IQ>;}
+}
+
+template <ig_nms::interp_quant IQ>
+void in_beam_func(kh_t& kh, aaeh_t& aaeh)
+{
+    aaeh.initialize();
+    kh.dt = aaeh.dt;
+    
+    bool full_propagation /*{pseudo_propagator<IQ>{}.test_propagation(kh, aaeh)}*/ {true};
+    if(full_propagation)
+    {
+        for(; ((kh.t < kh.t_lim) && !(kh.out_of_bounds()) && aaeh.in_beam(kh.pos_vel)); kh.t += kh.dt)
+        {
+            aaeh.do_step(kh);
+            kh.template do_step<IQ>();
+        }
+    }
+    
+    kh.dt = aaeh.dt_nrm;
+    
+    aaeh.decay_excited_states(kh);
+    
+    if((kh.t >= kh.t_lim) || kh.out_of_bounds()) {next_func = nullptr;}
+    else {next_func = run_reg<IQ>;}
+}
+
+void pick_and_run_sum(kh_t& kh, aaeh_t& aaeh, size_t IC_idx)
+{
+    kh.pos_vel = kh.ICs[IC_idx].pos_vel;
+    kh.reset_out_of_bnds();
+    kh.t = 0.0;
+    
+    if(kh.gr_state == asts_nms::S_gr{{{"F", 1}, {"mF", 0}}}) {
+        for(next_func = run_reg<ig_nms::interp_quant::acc_1Sc>; next_func;) {next_func(kh, aaeh);}
+    }
+    else if(kh.gr_state == asts_nms::S_gr{{{"F", 1}, {"mF", -1}}}) {
+        for(next_func = run_reg<ig_nms::interp_quant::acc_1Sd>; next_func;) {next_func(kh, aaeh);}
+    }
+    else {
+        throw kin_hand_nms::kin_hand_exc{"Not a trappable state"};
+    }
+}
+
+void generate_ICs(int argc, char ** argv, size_t tot_parts, size_t part_idx)
+{
+    kh_t kh;
+    aaeh_t aaeh;
+    std::array<int, 3> det_lims {{-5000, 5000, 100}};
+    
+    kh.fill(jm_nms::get_opts_fn(argc, argv), tot_parts, part_idx);
+    
+    std::cout << "Loaded" << std::endl;
+    std::cout <<  "Minimum B : " << kh.Bnorm_min << std::endl;
+    
+    for(size_t IC_idx = 0; IC_idx < kh.ICs.size(); ++IC_idx)
+    {
+     	aaeh.fill(jm_nms::get_opts_fn(argc, argv), det_lims);
+        auto wcts = std::chrono::system_clock::now();
+        std::cout << "Starting simulation for particle " << (IC_idx+1) << " of " << kh.ICs.size() << std::endl;
+
+        pick_and_run_sum(kh, aaeh, IC_idx);
+        aaeh.finish_and_add_to_final_states(kh);
+
+        std::chrono::duration<double> wctduration = (std::chrono::system_clock::now() - wcts);
+        std::cout << "Finished " << kh.t_lim << " s of simulation time in " << wctduration.count() << " s of real time" << std::endl;
+    }
+    
+    kh.print_contents();
+}
+
+int main(int argc, char ** argv)
+{
+try
+{
+    jm_nms::pseudo_main(argc, argv, generate_ICs, kh_t::output_files, kh_t::write_opt_file_template, kh_t::print_out_mem);
+}
+catch(gqt_nms::gqt_exc& exc) {
+std::cout << exc.give_err() << std::endl;
+}    
+    return 0;
+}
+

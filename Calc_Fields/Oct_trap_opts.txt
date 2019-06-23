@@ -1,0 +1,21 @@
+Total Partitions = 10
+Time (in mins) = 360
+
+########################
+# SUMMED FIELD STORAGE #
+########################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Summed Field Output Directory = Interp_OCT_TRAP
+
+
+
+##############################
+# DERIVED QUANTITIES STORAGE #
+##############################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Derived Quantities Output Directory = Interp_OCT_TRAP_QUANTS
+
+
+
