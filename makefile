@@ -1,6 +1,6 @@
 .NOTPARALLEL :
 
-ORDERED_MK_DIRS = Libraries Coil_Defs Calc_Fields Interpolate_Fields Interpolation_Testing Hbar_Propagation Quick_Test
+ORDERED_MK_DIRS = Libraries Coil_Defs Calc_Fields Interpolate_Fields Hbar_Propagation
 
 task_list = $(foreach task,$(ORDERED_MK_DIRS),$(1) $(task) $(2);)
 
