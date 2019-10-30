@@ -1,2 +1,0 @@
-Laser Path 1 File = Options_Files/Laser_Path_1.txt
-Laser Path 2 File = Options_Files/Laser_Path_2.txt

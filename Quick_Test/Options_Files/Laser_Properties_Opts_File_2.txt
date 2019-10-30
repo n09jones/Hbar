@@ -1,3 +1,0 @@
-Laser Detuning = 78.0e9
-Laser FWHM = 1.e3
-Detuning Field = 0.78
