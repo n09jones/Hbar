@@ -57,7 +57,7 @@ struct pseudo_propagator
     bool test_propagation(kh_t& kh, aseh_t& aseh)
     {
 static size_t tot {0};
-static size_t detailed {0};
+//static size_t detailed {0};
 
 tot++;
         init(kh, aseh);

@@ -1,7 +1,0 @@
-Coordinate Grid File Name = interp_check_pts.bin
-Interpolation Source Directory B = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
-Interpolation Source Directory Bnorm = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
-Interpolation Source Directory acc_1Sc = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
-Interpolation Source Directory acc_1Sd = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
-Interpolation Source Directory acc_2Sc = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
-Interpolation Source Directory acc_2Sd = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_LINEAR_div_5
