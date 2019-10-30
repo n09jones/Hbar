@@ -7,7 +7,7 @@ size_t survivors {0};
 double max_survival_t {0.0};
 double avg_survival_t {0.0};
 double var_survival_t {0.0};
-using EM_Quant_Gen = emq_nms::grid_EM_quants<ig_nms::interp_type::lin>;
+using EM_Quant_Gen = emq_nms::grid_EM_quants<ig_nms::interp_type::quad>;
 
 using kh_t = kin_hand_nms::kinematic_handler<true, boost::numeric::odeint::symplectic_rkn_sb3a_mclachlan<bvec_nms::basic_vec<>, bvec_nms::basic_vec<>, global_nms::default_data_type, bvec_nms::basic_vec<>, bvec_nms::basic_vec<>, double, boost::numeric::odeint::vector_space_algebra>, 0, EM_Quant_Gen>;
 

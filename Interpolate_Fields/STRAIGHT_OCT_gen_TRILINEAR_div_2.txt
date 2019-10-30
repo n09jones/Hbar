@@ -1,0 +1,6 @@
+Total Partitions = 100
+Time (in mins) = 180
+SLURM partitions = shared,serial_requeue
+Interpolation Source Directory = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_div_2
+Interpolation Mode = TRILINEAR
+Interpolation Output Directory = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_TRILINEAR_div_2

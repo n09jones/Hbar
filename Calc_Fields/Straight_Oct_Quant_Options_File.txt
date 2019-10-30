@@ -1,5 +1,6 @@
 Total Partitions = 200
 
+SLURM partitions = shared,serial_requeue
 ########################
 # SUMMED FIELD STORAGE #
 ########################

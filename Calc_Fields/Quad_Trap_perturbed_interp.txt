@@ -1,0 +1,37 @@
+Total Partitions = 100
+SLURM partitions = shared,serial_requeue
+###########################
+# SUMMED FIELD PARAMETERS #
+###########################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h.
+Quadrupole Directory = Interp_QUAD_Perturbed
+Octupole Directory = Interp_OCT_Perturbed
+Pinch Directory = Interp_PINCH_Perturbed
+Bucking Directory = Interp_BUCK_Perturbed
+
+# All currents are in Amperes.
+Quadrupole Current = 470.0
+Octupole Current = 0.0
+Pinch Current = -310.0
+Bucking Current = 264.1
+
+# All field components are in Tesla.
+Offset field's x-component = 0.0
+Offset field's y-component = 0.0
+Offset field's z-component = -1.0
+
+# TRUE or FALSE
+Include Gradients = TRUE
+
+
+
+########################
+# SUMMED FIELD STORAGE #
+########################
+
+# Relative to "large_storage_dir" in Global_Info.h
+Summed Field Output Directory = Interp_QUAD_TRAP_Perturbed
+
+
+

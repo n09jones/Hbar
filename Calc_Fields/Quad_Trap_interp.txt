@@ -1,14 +1,14 @@
 Total Partitions = 100
-
+SLURM partitions = shared,serial_requeue
 ###########################
 # SUMMED FIELD PARAMETERS #
 ###########################
 
 # All directory paths are relative to "large_storage_dir" in Global_Info.h.
-Quadrupole Directory = Interp_QUAD
-Octupole Directory = Interp_OCT
-Pinch Directory = Interp_PINCH
-Bucking Directory = Interp_BUCK
+Quadrupole Directory = CTRAP_QUAD_div_2
+Octupole Directory = CTRAP_OCT_div_2
+Pinch Directory = CTRAP_PINCH_div_2
+Bucking Directory = CTRAP_BUCK_div_2
 
 # All currents are in Amperes.
 Quadrupole Current = 470.0
@@ -31,7 +31,7 @@ Include Gradients = TRUE
 ########################
 
 # Relative to "large_storage_dir" in Global_Info.h
-Summed Field Output Directory = Interp_QUAD_TRAP
+Summed Field Output Directory = CTRAP_QUAD_TRAP_div_2
 
 
 

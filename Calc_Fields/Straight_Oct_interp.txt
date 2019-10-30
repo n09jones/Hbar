@@ -1,6 +1,6 @@
 Total Partitions = 1000
 Time (in mins) = 120
-
+SLURM partitions = shared,serial_requeue
 ################################
 # SINGLE-COIL FIELD PARAMETERS #
 ################################

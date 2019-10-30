@@ -1,12 +1,12 @@
 Total Partitions = 50
 Time (in mins) = 240
-
+SLURM partitions = shared,serial_requeue
 ######################
 # INTERPOLATION INFO #
 ######################
 
 # Relative to "large_storage_dir" in Global_Info.h
-Interpolation Source Directory = CTRAP_STD_QUAD_TRAP_QUANTS
+Interpolation Source Directory = CTRAP_QUAD_TRAP_QUANTS
 
 # ZEROTH, LINEAR, QUADRATIC, or TRILINEAR
 Interpolation Mode = LINEAR
@@ -18,7 +18,7 @@ Interpolation Mode = LINEAR
 #########################
 
 # Relative to "large_storage_dir" in Global_Info.h
-Interpolation Output Directory = CTRAP_STD_QUAD_TRAP_QUANTS_Linear_Interp
+Interpolation Output Directory = CTRAP_QUAD_TRAP_QUANTS_Linear_Interp
 
 
 

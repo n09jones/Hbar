@@ -1,6 +1,6 @@
 Total Partitions = 50
 Time (in mins) = 240
-
+SLURM partitions = shared,serial_requeue
 ######################
 # INTERPOLATION INFO #
 ######################

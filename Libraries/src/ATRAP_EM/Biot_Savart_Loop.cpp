@@ -1,7 +1,17 @@
+#include <random>
 #include "Biot_Savart/Biot_Savart_Loop.h"
 
 std::vector<global_nms::default_data_type> bsl_nms::gen_mirror_coil_params(global_nms::default_data_type min, global_nms::default_data_type max, size_t turns)
 {
+if(true)
+{
+    std::minstd_rand gen {};
+    std::normal_distribution<> nd{0.0, 5.0e-6};
+
+    min += nd(gen);
+    max += nd(gen);
+}
+
     std::vector<global_nms::default_data_type> ret_vec;
     
     if(min < max) {

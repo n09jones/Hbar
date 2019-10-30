@@ -2,12 +2,23 @@
 #define BIOT_SAVART_SEGS_HPP
 
 #include <numeric>
+#include <random>
 #include "Coil_Vec_Conversion.h"
 
 template <class Calc_T, class Rslt_T, cg_nms::grid_type Grid_Type>
 std::array<mem_arr_vec_nms::mem_arr_vec<Calc_T>, 2> bss_nms::biot_savart_coil_prep(const cgq_nms::single_coil<par_arr_nms::storage::mem, Grid_Type, true, Rslt_T>& fld)
 {
     mem_arr_nms::mem_arr<> raw_coil {fld.in_params.coil_fn};
+
+/* Perturb */
+if(true)
+{
+    std::minstd_rand gen {};
+    std::normal_distribution<> nd{0.0, 5.0e-6};
+
+    for(size_t idx = 3; idx < raw_coil.size() - 3; ++idx) {raw_coil[idx] += nd(gen);}
+}
+
     mem_arr_vec_nms::mem_arr_vec<Calc_T> coil_vec {mem_arr_vec_nms::convert<Calc_T>(cvc_nms::coil_to_vec(raw_coil))};
     mem_arr_vec_nms::mem_arr_vec<Calc_T> segs {coil_vec.arr_len()};
     

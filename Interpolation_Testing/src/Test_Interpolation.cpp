@@ -63,27 +63,31 @@ int main(int argc, char ** argv)
 {
 try{
 std::cout << "Figuring out it" << std::endl;
-    interp_nms::interpolator_in_params<ig_nms::interp_type::trilin> iip;
+    interp_nms::interpolator_in_params<ig_nms::interp_type::lin> iip;
     std::vector<std::string> dummy;
     gqt_nms::fill_params(jm_nms::get_opts_fn(argc, argv), iip, dummy);
 std::cout << "It determined" << std::endl;
     switch (iip.it)
     {
         case ig_nms::interp_type::zeroth :
+            std::cout << "zeroth" << std::endl;
             return pseudo_main<ig_nms::interp_type::zeroth, true>(argc, argv);
         
         case ig_nms::interp_type::lin :
+            std::cout << "lin" << std::endl;
             return pseudo_main<ig_nms::interp_type::lin, true>(argc, argv);
             
         case ig_nms::interp_type::quad :
+            std::cout << "quad" << std::endl;
             return pseudo_main<ig_nms::interp_type::quad, true>(argc, argv);
             
         case ig_nms::interp_type::trilin :
+            std::cout << "trilin" << std::endl;
             return pseudo_main<ig_nms::interp_type::trilin, true>(argc, argv);
     }
     
 }
-catch(interp_nms::interp_exc& exc)
+catch(fio_nms::fio_exc& exc)
 {
     std::cout << exc.give_err() << std::endl;
 }

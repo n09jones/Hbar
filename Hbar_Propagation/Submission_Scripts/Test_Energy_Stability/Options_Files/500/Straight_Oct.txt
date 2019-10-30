@@ -1,0 +1,53 @@
+Total Partitions = 100
+
+Memory (in MB) = 10000
+Time (in mins) = 300
+
+SLURM partitions = shared,serial_requeue
+
+##########################################
+# LINEARLY INTERPOLATED QUANTITY SOURCES #
+##########################################
+
+# All directory paths are relative to "large_storage_dir" in Global_Info.h. Exclude directories for unu$
+Interpolation Source Directory BdB =
+Interpolation Source Directory B = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory Bnorm = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+Interpolation Source Directory acc_1Sd = CTRAP_STRAIGHT_OCT_TRAP_QUANTS_Linear_Interp
+
+
+
+########################
+# KINEMATIC PARAMETERS #
+########################
+
+# In seconds
+
+# In seconds
+Total Simulated Time = 3600
+
+# Relative to "large_storage_dir" in Global_Info.h.
+Initial Condition File Path = STD_ICs/Straight_Oct_ICs_uncooled_fin_100.bin
+
+########################
+# ATOMIC STATE : n = 1 #
+########################
+
+Ground State F = 1
+Ground State mF = -1
+
+
+#################
+Laser FWHM = 40e6
+Pulse Length = 16e-9
+Repetition Rate = 30
+
+
+################
+Laser Path 1 File = Submission_Scripts/Laser_Path_Options_Files/Pulsed_Lyman_Alpha/Straight_Oct/Laser_Path_1.txt
+Excited State 2J = 1
+Excited State 2mJ = 1
+Excited State 2mI = 1
+Laser Detuning = 0.0e6
+Time Per Step = 500e-9
+Output File Path = Test_Energy_Stability/500/Straight_Oct.bin

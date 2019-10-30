@@ -1,0 +1,6 @@
+Total Partitions = 100
+Time (in mins) = 180
+SLURM partitions = shared,serial_requeue
+Interpolation Source Directory = CTRAP_QUAD_TRAP_QUANTS_div_5
+Interpolation Mode = QUADRATIC
+Interpolation Output Directory = CTRAP_QUAD_TRAP_QUANTS_QUADRATIC_div_5
